@@ -18,6 +18,7 @@ namespace CodeGatherHelper
 			const string SOURCE_DIRECTORY = "FantasticBits";
 			const string OUT_FILE = "run.cs";
 
+			List<string> usings = new List<string>();
 			List<string> content = new List<string>();
 
 			DirectoryInfo info = new DirectoryInfo(SOURCE_DIRECTORY);
@@ -28,19 +29,19 @@ namespace CodeGatherHelper
 					continue;
 				}
 
+				content.Add($"// File {file.Name}");
 
-
-				using (Stream fileStream = file.OpenRead())
-				{
-					using (TextReader reader = new StreamReader(fileStream))
-					{
-						content.Add($"// File {file.Name}");
-						content.Add(reader.ReadToEnd());
-						content.Add("");
-						content.Add("");
-					}
-				}
+				List<string> lines = File.ReadAllLines(file.FullName).ToList();
+				usings.AddRange(lines.Where(x => x.StartsWith("using ")).Select(x => x.Trim()));
+				content.AddRange(lines.Where(x => !x.StartsWith("using ")));
+				content.Add("");
+				content.Add("");
 			}
+
+			usings = usings.Distinct().ToList();
+			usings.Add("");
+			usings.Add("");
+			content.InsertRange(0, usings);
 
 			File.WriteAllText(OUT_FILE, string.Join("\n", content));
 		}
