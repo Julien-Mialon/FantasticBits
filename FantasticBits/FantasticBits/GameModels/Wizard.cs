@@ -1,20 +1,11 @@
 ﻿namespace FantasticBits.GameModels
 {
-	public class Wizard : IEntity
+	public class Wizard : BaseEntity
 	{
-		public int Id { get; }
-
-		public Coordinate Position { get; }
-
-		public SpeedVector Speed { get; }
-
 		public bool HasSouaffle { get; }
 
-		public Wizard(int id, Coordinate position, SpeedVector speed, bool hasSouaffle)
+		public Wizard(int id, Coordinate position, SpeedVector speed, bool hasSouaffle) : base(id, position, speed)
 		{
-			Id = id;
-			Position = position;
-			Speed = speed;
 			HasSouaffle = hasSouaffle;
 		}
 	}

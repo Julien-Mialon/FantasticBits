@@ -1,0 +1,2446 @@
+Sortie d'erreur :
+0
+13
+0 WIZARD 1000 5250 0 0 0
+1 WIZARD 1000 2250 0 0 0
+2 OPPONENT_WIZARD 15000 2250 0 0 0
+3 OPPONENT_WIZARD 15000 5250 0 0 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 7450 3750 0 0 0
+12 BLUDGER 8550 3750 0 0 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+002
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+003
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 1
+DEFAULT Score: 0 | Magic: 1
+Sortie d'erreur :
+13
+0 WIZARD 1138 5192 104 -43 0
+1 WIZARD 1125 2333 94 62 0
+2 OPPONENT_WIZARD 14862 2308 -103 44 0
+3 OPPONENT_WIZARD 14875 5167 -94 -62 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 7328 3778 -110 25 0
+12 BLUDGER 8672 3722 110 -25 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+004
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+005
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 2
+DEFAULT Score: 0 | Magic: 2
+Sortie d'erreur :
+13
+0 WIZARD 1380 5091 182 -76 0
+1 WIZARD 1344 2478 164 109 0
+2 OPPONENT_WIZARD 14620 2409 -181 76 0
+3 OPPONENT_WIZARD 14656 5022 -164 -109 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 7096 3831 -209 48 0
+12 BLUDGER 8904 3669 209 -48 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+006
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+007
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 3
+DEFAULT Score: 0 | Magic: 3
+Sortie d'erreur :
+13
+0 WIZARD 1700 4958 240 -100 0
+1 WIZARD 1634 2669 218 143 0
+2 OPPONENT_WIZARD 14300 2542 -240 100 0
+3 OPPONENT_WIZARD 14366 4831 -217 -143 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 6765 3906 -298 68 0
+12 BLUDGER 9235 3594 298 -67 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+008
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+009
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 4
+DEFAULT Score: 0 | Magic: 4
+Sortie d'erreur :
+13
+0 WIZARD 2078 4801 284 -118 0
+1 WIZARD 1977 2895 257 170 0
+2 OPPONENT_WIZARD 13922 2699 -283 118 0
+3 OPPONENT_WIZARD 14023 4605 -257 -169 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 6345 3999 -378 84 0
+12 BLUDGER 9655 3501 378 -84 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+010
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+011
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 5
+DEFAULT Score: 0 | Magic: 5
+Sortie d'erreur :
+13
+0 WIZARD 2500 4625 317 -132 0
+1 WIZARD 2360 3147 287 189 0
+2 OPPONENT_WIZARD 13500 2875 -316 132 0
+3 OPPONENT_WIZARD 13640 4353 -287 -189 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 5844 4106 -451 96 0
+12 BLUDGER 10156 3394 451 -96 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+012
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+013
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 6
+DEFAULT Score: 0 | Magic: 6
+Sortie d'erreur :
+13
+0 WIZARD 2955 4435 341 -142 0
+1 WIZARD 2773 3418 310 203 0
+2 OPPONENT_WIZARD 13045 3065 -341 143 0
+3 OPPONENT_WIZARD 13227 4082 -310 -203 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 5270 4221 -517 104 0
+12 BLUDGER 10730 3279 517 -103 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+014
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+015
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 7
+DEFAULT Score: 0 | Magic: 7
+Sortie d'erreur :
+13
+0 WIZARD 3477 4394 423 89 0
+1 WIZARD 3166 3545 263 -25 0
+2 OPPONENT_WIZARD 12523 3106 -423 -88 0
+3 OPPONENT_WIZARD 12834 3955 -263 25 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3788 4087 0 0 0
+7 SNAFFLE 12212 3413 0 0 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 4629 4336 -577 104 0
+12 BLUDGER 11371 3164 577 -103 0
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Sortie standard :
+MOVE 3788 4087 150
+MOVE 3788 4087 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3788, 4087) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3788, 4087) with thrust 150
+016
+139
+Sortie standard :
+MOVE 12212 3413 150
+MOVE 12212 3413 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12212, 3413) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12212, 3413) with thrust 150
+017
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 8
+Storm 0 caught snaffle 6
+DEFAULT Score: 0 | Magic: 8
+DEFAULT 2 caught snaffle 7
+Sortie d'erreur :
+13
+0 WIZARD 2809 4479 -1226 176 1
+1 WIZARD 3532 3519 263 -129 0
+2 OPPONENT_WIZARD 13191 3021 1226 -175 1
+3 OPPONENT_WIZARD 12468 3981 -263 129 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2809 4479 -1226 176 0
+7 SNAFFLE 13191 3021 1226 -175 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 4078 4445 -385 98 0
+12 BLUDGER 11922 3055 385 -98 0
+THROW 16000 3750 500
+MOVE 2809 4479 150
+Sortie standard :
+THROW 16000 3750 500
+MOVE 2809 4479 150
+Informations :
+Storm: Wizard 0 throws the snaffle to coordinate (16000, 3750) with power 500
+Storm: Wizard 1 moves towards coordinate (2809, 4479) with thrust 150
+018
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 13191 3021 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (13191, 3021) with thrust 150
+019
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 9
+DEFAULT Score: 0 | Magic: 9
+Sortie d'erreur :
+13
+0 WIZARD 1583 4655 -919 132 0
+1 WIZARD 3705 3510 130 -7 0
+2 OPPONENT_WIZARD 14417 2846 920 -132 0
+3 OPPONENT_WIZARD 12295 3990 -130 7 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2581 4599 -171 90 0
+7 SNAFFLE 13618 2890 320 -98 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 3629 4435 -404 -9 0
+12 BLUDGER 12371 3065 404 9 0
+MOVE 2581 4599 150
+MOVE 2581 4599 150
+Sortie standard :
+MOVE 2581 4599 150
+MOVE 2581 4599 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (2581, 4599) with thrust 150
+Storm: Wizard 1 moves towards coordinate (2581, 4599) with thrust 150
+020
+139
+Sortie standard :
+MOVE 13618 2890 150
+MOVE 13618 2890 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (13618, 2890) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (13618, 2890) with thrust 150
+021
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 10
+DEFAULT Score: 0 | Magic: 10
+Sortie d'erreur :
+13
+0 WIZARD 813 4779 -577 93 0
+1 WIZARD 3727 3608 17 74 0
+2 OPPONENT_WIZARD 15187 2722 578 -93 0
+3 OPPONENT_WIZARD 12281 3901 -10 -67 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2410 4689 -128 68 0
+7 SNAFFLE 13938 2792 240 -73 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 3235 4301 -355 -121 0
+12 BLUDGER 12765 3199 355 121 0
+MOVE 2410 4689 150
+MOVE 2410 4689 150
+Sortie standard :
+MOVE 2410 4689 150
+MOVE 2410 4689 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (2410, 4689) with thrust 150
+Storm: Wizard 1 moves towards coordinate (2410, 4689) with thrust 150
+022
+139
+Sortie standard :
+MOVE 13938 2792 150
+MOVE 13938 2792 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (13938, 2792) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (13938, 2792) with thrust 150
+023
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 11
+DEFAULT Score: 0 | Magic: 11
+Sortie d'erreur :
+13
+0 WIZARD 415 4864 321 64 0
+1 WIZARD 3628 3777 -74 127 0
+2 OPPONENT_WIZARD 15585 2637 -321 -64 0
+3 OPPONENT_WIZARD 12395 3751 86 -112 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2282 4757 -96 51 0
+7 SNAFFLE 14178 2719 180 -55 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2953 4078 -254 -201 0
+12 BLUDGER 13049 3423 256 202 0
+MOVE 2282 4757 150
+MOVE 2282 4757 150
+Sortie standard :
+MOVE 2282 4757 150
+MOVE 2282 4757 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (2282, 4757) with thrust 150
+Storm: Wizard 1 moves towards coordinate (2282, 4757) with thrust 150
+024
+139
+Sortie standard :
+MOVE 14178 2719 150
+MOVE 14178 2719 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (14178, 2719) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (14178, 2719) with thrust 150
+025
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 12
+DEFAULT Score: 0 | Magic: 12
+Sortie d'erreur :
+13
+0 WIZARD 886 4919 353 41 0
+1 WIZARD 3432 3992 -147 161 0
+2 OPPONENT_WIZARD 15114 2582 -353 -41 0
+3 OPPONENT_WIZARD 12572 3563 44 -142 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2186 4808 -72 38 0
+7 SNAFFLE 14358 2664 135 -42 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2813 3826 -126 -227 0
+12 BLUDGER 13198 3681 148 232 0
+MOVE 2186 4808 150
+MOVE 2186 4808 150
+Sortie standard :
+MOVE 2186 4808 150
+MOVE 2186 4808 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (2186, 4808) with thrust 150
+Storm: Wizard 1 moves towards coordinate (2186, 4808) with thrust 150
+026
+139
+Sortie standard :
+MOVE 14358 2664 150
+MOVE 14358 2664 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (14358, 2664) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (14358, 2664) with thrust 150
+027
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 13
+DEFAULT Score: 0 | Magic: 13
+DEFAULT 2 caught snaffle 7
+Sortie d'erreur :
+13
+0 WIZARD 1389 4947 377 21 0
+1 WIZARD 3160 4235 -204 182 0
+2 OPPONENT_WIZARD 14612 2557 -376 -19 1
+3 OPPONENT_WIZARD 12749 3353 133 -157 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2114 4846 -54 29 0
+7 SNAFFLE 14612 2557 -376 -19 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2808 3632 -4 -175 0
+12 BLUDGER 13454 3851 230 153 0
+MOVE 2114 4846 150
+MOVE 2114 4846 150
+Sortie standard :
+MOVE 2114 4846 150
+MOVE 2114 4846 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (2114, 4846) with thrust 150
+Storm: Wizard 1 moves towards coordinate (2114, 4846) with thrust 150
+028
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 14612 2557 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (14612, 2557) with thrust 150
+029
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 14
+Storm 0 caught snaffle 6
+DEFAULT Score: 0 | Magic: 14
+Sortie d'erreur :
+13
+0 WIZARD 1915 4947 395 0 1
+1 WIZARD 2826 4493 -250 194 0
+2 OPPONENT_WIZARD 14236 2538 -283 -14 0
+3 OPPONENT_WIZARD 13020 3137 203 -162 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 1915 4947 395 0 0
+7 SNAFFLE 13438 2603 -880 35 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2867 3565 53 -60 0
+12 BLUDGER 13768 3911 283 54 0
+THROW 16000 3750 500
+MOVE 1915 4947 150
+Sortie standard :
+THROW 16000 3750 500
+MOVE 1915 4947 150
+Informations :
+Storm: Wizard 0 throws the snaffle to coordinate (16000, 3750) with power 500
+Storm: Wizard 1 moves towards coordinate (1915, 4947) with thrust 150
+030
+139
+Sortie standard :
+MOVE 13438 2603 150
+MOVE 13438 2603 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (13438, 2603) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (13438, 2603) with thrust 150
+031
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 15
+Storm 1 caught snaffle 6
+DEFAULT Score: 0 | Magic: 15
+Sortie d'erreur :
+13
+0 WIZARD 1986 5124 -36 182 0
+1 WIZARD 2765 4576 44 14 1
+2 OPPONENT_WIZARD 13922 2468 -9 -183 0
+3 OPPONENT_WIZARD 13197 2925 -93 -28 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 2765 4576 44 14 0
+7 SNAFFLE 12557 2638 -661 26 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2915 3630 43 59 0
+12 BLUDGER 14091 3847 291 -58 0
+MOVE 2765 4576 150
+THROW 16000 3750 500
+Sortie standard :
+MOVE 2765 4576 150
+THROW 16000 3750 500
+Informations :
+Storm: Wizard 0 moves towards coordinate (2765, 4576) with thrust 150
+Storm: Wizard 1 throws the snaffle to coordinate (16000, 3750) with power 500
+032
+139
+Sortie standard :
+MOVE 12557 2638 150
+MOVE 12557 2638 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (12557, 2638) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (12557, 2638) with thrust 150
+033
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 16
+DEFAULT Score: 0 | Magic: 16
+Sortie d'erreur :
+13
+0 WIZARD 2073 5219 65 71 0
+1 WIZARD 2809 4590 33 11 0
+2 OPPONENT_WIZARD 13764 2304 -118 -123 0
+3 OPPONENT_WIZARD 12967 2835 -172 -67 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 3807 4527 782 -37 0
+7 SNAFFLE 11896 2664 -496 20 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2939 3812 22 164 0
+12 BLUDGER 14366 3665 248 -164 0
+MOVE 3807 4527 150
+MOVE 3807 4527 150
+Sortie standard :
+MOVE 3807 4527 150
+MOVE 3807 4527 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (3807, 4527) with thrust 150
+Storm: Wizard 1 moves towards coordinate (3807, 4527) with thrust 150
+034
+139
+Sortie standard :
+MOVE 11896 2664 150
+MOVE 11896 2664 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (11896, 2664) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (11896, 2664) with thrust 150
+035
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 17
+DEFAULT Score: 0 | Magic: 17
+Sortie d'erreur :
+13
+0 WIZARD 2278 5235 154 12 0
+1 WIZARD 2986 4786 126 389 0
+2 OPPONENT_WIZARD 13498 2209 -199 -71 0
+3 OPPONENT_WIZARD 12646 2744 -241 -68 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 4589 4490 587 -28 0
+7 SNAFFLE 11400 2684 -372 15 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2941 4075 3 200 0
+12 BLUDGER 14563 3387 177 -250 0
+MOVE 4086 6037 150
+MOVE 4589 4490 150
+Sortie standard :
+MOVE 4086 6037 150
+MOVE 4589 4490 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (4086, 6037) with thrust 150
+Storm: Wizard 1 moves towards coordinate (4589, 4490) with thrust 150
+036
+139
+Sortie standard :
+MOVE 11914 1463 150
+MOVE 11400 2684 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (11914, 1463) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (11400, 2684) with thrust 150
+037
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 18
+DEFAULT Score: 0 | Magic: 18
+Sortie d'erreur :
+13
+0 WIZARD 2451 5372 102 118 0
+1 WIZARD 3378 5083 322 209 0
+2 OPPONENT_WIZARD 13163 2074 -251 -101 0
+3 OPPONENT_WIZARD 12255 2669 -293 -56 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 5176 4462 440 -21 0
+7 SNAFFLE 11028 2699 -279 11 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2882 4383 -53 277 0
+12 BLUDGER 14656 3044 84 -309 0
+MOVE 4086 6037 150
+MOVE 4086 6037 150
+Sortie standard :
+MOVE 4086 6037 150
+MOVE 4086 6037 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (4086, 6037) with thrust 150
+Storm: Wizard 1 moves towards coordinate (4086, 6037) with thrust 150
+038
+139
+Sortie standard :
+MOVE 11914 1463 150
+MOVE 11028 2699 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (11914, 1463) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (11028, 2699) with thrust 150
+039
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 19
+DEFAULT Score: 0 | Magic: 19
+Sortie d'erreur :
+13
+0 WIZARD 2692 5546 181 131 0
+1 WIZARD 3789 5412 308 247 0
+2 OPPONENT_WIZARD 12777 1907 -289 -125 0
+3 OPPONENT_WIZARD 11812 2616 -332 -40 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 5616 4441 330 -16 0
+7 SNAFFLE 10749 2710 -209 8 0
+8 SNAFFLE 4086 6037 0 0 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2779 4775 -93 353 0
+12 BLUDGER 14635 2667 -19 -339 0
+MOVE 4086 6037 150
+MOVE 4086 6037 150
+Sortie standard :
+MOVE 4086 6037 150
+MOVE 4086 6037 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (4086, 6037) with thrust 150
+Storm: Wizard 1 moves towards coordinate (4086, 6037) with thrust 150
+040
+139
+Sortie standard :
+MOVE 11914 1463 150
+MOVE 10749 2710 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (11914, 1463) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (10749, 2710) with thrust 150
+041
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 20
+Storm 1 caught snaffle 8
+DEFAULT Score: 0 | Magic: 20
+Sortie d'erreur :
+13
+0 WIZARD 3036 5781 299 281 0
+1 WIZARD 4162 5794 280 287 1
+2 OPPONENT_WIZARD 12354 1713 -317 -145 0
+3 OPPONENT_WIZARD 11330 2589 -361 -20 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 5946 4425 248 -12 0
+7 SNAFFLE 10540 2718 -157 6 0
+8 SNAFFLE 4162 5794 280 287 0
+9 SNAFFLE 11914 1463 0 0 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2670 5245 -104 408 0
+12 BLUDGER 14500 2280 -121 -348 0
+MOVE 4162 5794 150
+THROW 16000 3750 500
+Sortie standard :
+MOVE 4162 5794 150
+THROW 16000 3750 500
+Informations :
+Storm: Wizard 0 moves towards coordinate (4162, 5794) with thrust 150
+Storm: Wizard 1 throws the snaffle to coordinate (16000, 3750) with power 500
+042
+139
+Sortie standard :
+MOVE 11914 1463 150
+MOVE 10540 2718 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (11914, 1463) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (10540, 2718) with thrust 150
+043
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 21
+DEFAULT Score: 0 | Magic: 21
+DEFAULT 2 caught snaffle 9
+Sortie d'erreur :
+13
+0 WIZARD 3485 6063 337 212 0
+1 WIZARD 4442 6081 210 215 0
+2 OPPONENT_WIZARD 11906 1493 -336 -165 1
+3 OPPONENT_WIZARD 10820 2593 -382 3 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 6194 4413 186 -9 0
+7 SNAFFLE 10383 2724 -118 5 0
+8 SNAFFLE 5427 5910 949 87 0
+9 SNAFFLE 11906 1493 -336 -165 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2683 5696 12 406 0
+12 BLUDGER 14258 1900 -218 -342 0
+MOVE 5427 5910 150
+MOVE 5427 5910 150
+Sortie standard :
+MOVE 5427 5910 150
+MOVE 5427 5910 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (5427, 5910) with thrust 150
+Storm: Wizard 1 moves towards coordinate (5427, 5910) with thrust 150
+044
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 10383 2724 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (10383, 2724) with thrust 150
+045
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 22
+DEFAULT Score: 0 | Magic: 22
+DEFAULT 3 caught snaffle 7
+Sortie d'erreur :
+13
+0 WIZARD 3971 6263 365 150 0
+1 WIZARD 4800 6271 269 143 0
+2 OPPONENT_WIZARD 11570 1328 -252 -124 0
+3 OPPONENT_WIZARD 10294 2639 -394 35 1
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 9069 2545 0 0 0
+6 SNAFFLE 6380 4404 140 -7 0
+7 SNAFFLE 10294 2639 -394 35 0
+8 SNAFFLE 6376 5997 712 65 0
+9 SNAFFLE 10784 1477 -841 -12 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 2817 6129 121 390 0
+12 BLUDGER 13917 1537 -307 -327 0
+MOVE 6376 5997 150
+MOVE 6376 5997 150
+Sortie standard :
+MOVE 6376 5997 150
+MOVE 6376 5997 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6376, 5997) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6376, 5997) with thrust 150
+046
+139
+Sortie standard :
+MOVE 10784 1477 150
+THROW 0 3750 400
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (10784, 1477) with thrust 150
+DEFAULT: Wizard 3 throws the snaffle to coordinate (0, 3750) with power 400
+047
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 23
+DEFAULT Score: 0 | Magic: 23
+Sortie d'erreur :
+13
+0 WIZARD 4380 6396 274 100 0
+1 WIZARD 5321 6388 424 88 0
+2 OPPONENT_WIZARD 11171 1232 -299 -72 0
+3 OPPONENT_WIZARD 9900 2673 -296 26 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 8967 2458 -472 -403 0
+6 SNAFFLE 6520 4397 105 -5 0
+7 SNAFFLE 9206 2846 -421 493 0
+8 SNAFFLE 7088 6062 534 49 0
+9 SNAFFLE 9943 1465 -631 -9 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 3062 6528 221 359 0
+12 BLUDGER 13486 1199 -388 -304 0
+MOVE 7088 6062 150
+MOVE 7088 6062 150
+Sortie standard :
+MOVE 7088 6062 150
+MOVE 7088 6062 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (7088, 6062) with thrust 150
+Storm: Wizard 1 moves towards coordinate (7088, 6062) with thrust 150
+048
+139
+Sortie standard :
+MOVE 9943 1465 150
+MOVE 9206 2846 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (9943, 1465) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (9206, 2846) with thrust 150
+049
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 24
+DEFAULT Score: 0 | Magic: 24
+Sortie d'erreur :
+13
+0 WIZARD 4803 6477 317 61 0
+1 WIZARD 5892 6449 428 46 0
+2 OPPONENT_WIZARD 10724 1188 -335 -33 0
+3 OPPONENT_WIZARD 9458 2736 -331 47 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 8495 2055 -354 -302 0
+6 SNAFFLE 6625 4392 79 -4 0
+7 SNAFFLE 8785 3339 -316 370 0
+8 SNAFFLE 7622 6111 401 37 0
+9 SNAFFLE 9312 1456 -474 -7 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 3407 6879 311 316 0
+12 BLUDGER 12973 897 -462 -272 0
+MOVE 6931 4955 150
+MOVE 7622 6111 150
+Sortie standard :
+MOVE 6931 4955 150
+MOVE 7622 6111 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6931, 4955) with thrust 150
+Storm: Wizard 1 moves towards coordinate (7622, 6111) with thrust 150
+050
+139
+Sortie standard :
+MOVE 9312 1456 150
+MOVE 8785 3339 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (9312, 1456) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (8785, 3339) with thrust 150
+051
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 25
+DEFAULT Score: 0 | Magic: 25
+Sortie d'erreur :
+13
+0 WIZARD 5242 6450 329 -20 0
+1 WIZARD 6467 6466 431 13 0
+2 OPPONENT_WIZARD 10241 1183 -362 -4 0
+3 OPPONENT_WIZARD 9015 2883 -332 110 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 8141 1753 -265 -226 0
+6 SNAFFLE 6704 4388 59 -3 0
+7 SNAFFLE 8469 3709 -237 278 0
+8 SNAFFLE 8023 6148 301 28 0
+9 SNAFFLE 8838 1449 -355 -5 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 3841 7174 391 266 0
+12 BLUDGER 12387 641 -527 -230 0
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Sortie standard :
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6931, 4955) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6931, 4955) with thrust 150
+052
+139
+Sortie standard :
+MOVE 8838 1449 150
+MOVE 8469 3709 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (8838, 1449) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (8469, 3709) with thrust 150
+053
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 26
+DEFAULT Score: 0 | Magic: 26
+Sortie d'erreur :
+13
+0 WIZARD 5684 6330 332 -90 0
+1 WIZARD 6942 6335 356 -98 0
+2 OPPONENT_WIZARD 9731 1207 -382 18 0
+3 OPPONENT_WIZARD 8600 3118 -311 176 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 7876 1527 -199 -170 0
+6 SNAFFLE 6763 4385 44 -2 0
+7 SNAFFLE 8232 3987 -178 209 0
+8 SNAFFLE 8324 6176 226 21 0
+9 SNAFFLE 8483 1444 -267 -4 0
+10 SNAFFLE 8000 3750 0 0 0
+11 BLUDGER 4352 7193 460 -210 0
+12 BLUDGER 11738 441 -584 -180 0
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Sortie standard :
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6931, 4955) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6931, 4955) with thrust 150
+054
+139
+Sortie standard :
+MOVE 8483 1444 150
+MOVE 8000 3750 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (8483, 1444) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (8000, 3750) with thrust 150
+055
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 27
+DEFAULT Score: 0 | Magic: 27
+DEFAULT 3 caught snaffle 10
+Sortie d'erreur :
+13
+0 WIZARD 6116 6129 324 -151 0
+1 WIZARD 7297 6087 266 -186 0
+2 OPPONENT_WIZARD 9201 1253 -397 35 0
+3 OPPONENT_WIZARD 8185 3403 -311 214 1
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 7677 1357 -150 -127 0
+6 SNAFFLE 6807 4383 33 -1 0
+7 SNAFFLE 8054 4196 -133 157 0
+8 SNAFFLE 8550 6197 170 16 0
+9 SNAFFLE 8216 1440 -200 -3 0
+10 SNAFFLE 8185 3403 -311 214 0
+11 BLUDGER 4931 6944 521 -224 0
+12 BLUDGER 11037 306 -631 -121 0
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Sortie standard :
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6931, 4955) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6931, 4955) with thrust 150
+056
+139
+Sortie standard :
+MOVE 8216 1440 150
+THROW 0 3750 400
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (8216, 1440) with thrust 150
+DEFAULT: Wizard 3 throws the snaffle to coordinate (0, 3750) with power 400
+057
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 28
+DEFAULT Score: 0 | Magic: 28
+Sortie d'erreur :
+13
+0 WIZARD 6526 5855 308 -205 0
+1 WIZARD 7517 5758 165 -247 0
+2 OPPONENT_WIZARD 8656 1315 -409 47 0
+3 OPPONENT_WIZARD 7874 3617 -233 161 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 7527 1230 -112 -96 0
+6 SNAFFLE 6840 4382 25 -1 0
+7 SNAFFLE 7921 4353 -100 118 0
+8 SNAFFLE 8720 6213 128 12 0
+9 SNAFFLE 8016 1437 -150 -2 0
+10 SNAFFLE 7074 3651 -833 186 0
+11 BLUDGER 5570 6677 575 -240 0
+12 BLUDGER 10295 242 -668 -58 0
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Sortie standard :
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6931, 4955) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6931, 4955) with thrust 150
+058
+139
+Sortie standard :
+MOVE 8016 1437 150
+MOVE 7921 4353 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (8016, 1437) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (7921, 4353) with thrust 150
+059
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 29
+DEFAULT Score: 0 | Magic: 29
+DEFAULT 2 caught snaffle 9
+Sortie d'erreur :
+13
+0 WIZARD 6818 5524 97 -231 0
+1 WIZARD 7670 5379 238 -302 0
+2 OPPONENT_WIZARD 8100 1390 -417 56 1
+3 OPPONENT_WIZARD 7650 3927 -168 233 0
+4 SNAFFLE 6931 4955 0 0 0
+5 SNAFFLE 7415 1134 -85 -72 0
+6 SNAFFLE 6865 4381 19 -1 0
+7 SNAFFLE 7821 4471 -76 89 0
+8 SNAFFLE 8848 6225 96 9 0
+9 SNAFFLE 8100 1390 -417 56 0
+10 SNAFFLE 6241 3837 -625 140 0
+11 BLUDGER 6258 6383 619 -265 0
+12 BLUDGER 9523 253 -695 10 0
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Sortie standard :
+MOVE 6931 4955 150
+MOVE 6931 4955 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6931, 4955) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6931, 4955) with thrust 150
+060
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 7821 4471 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (7821, 4471) with thrust 150
+061
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 30
+Storm 0 caught snaffle 4
+DEFAULT Score: 0 | Magic: 30
+DEFAULT 3 caught snaffle 7
+Sortie d'erreur :
+13
+0 WIZARD 6944 5146 95 -283 1
+1 WIZARD 7789 5038 173 24 0
+2 OPPONENT_WIZARD 7683 1446 -313 42 0
+3 OPPONENT_WIZARD 7516 4266 -184 -25 1
+4 SNAFFLE 6944 5146 95 -283 0
+5 SNAFFLE 7330 1062 -64 -54 0
+6 SNAFFLE 6884 4380 14 -1 0
+7 SNAFFLE 7516 4266 -184 -25 0
+8 SNAFFLE 8944 6234 72 7 0
+9 SNAFFLE 6915 1670 -889 210 0
+10 SNAFFLE 5616 3976 -469 105 0
+11 BLUDGER 6979 6046 649 -303 0
+12 BLUDGER 8731 341 -713 79 0
+THROW 16000 3750 500
+MOVE 7516 4266 150
+Sortie standard :
+THROW 16000 3750 500
+MOVE 7516 4266 150
+Informations :
+Storm: Wizard 0 throws the snaffle to coordinate (16000, 3750) with power 500
+Storm: Wizard 1 moves towards coordinate (7516, 4266) with thrust 150
+062
+139
+Sortie standard :
+MOVE 7330 1062 150
+THROW 0 3750 400
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (7330, 1062) with thrust 150
+DEFAULT: Wizard 3 throws the snaffle to coordinate (0, 3750) with power 400
+063
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 31
+Storm 1 caught snaffle 4
+DEFAULT Score: 0 | Magic: 31
+Sortie d'erreur :
+13
+0 WIZARD 6996 4941 -29 -28 0
+1 WIZARD 7912 4921 92 -88 1
+2 OPPONENT_WIZARD 7269 1378 -310 -51 0
+3 OPPONENT_WIZARD 7374 4163 -38 -203 0
+4 SNAFFLE 7912 4921 92 -88 0
+5 SNAFFLE 7266 1008 -48 -40 0
+6 SNAFFLE 6433 4631 -543 299 0
+7 SNAFFLE 6999 3934 -183 -359 0
+8 SNAFFLE 9016 6241 54 5 0
+9 SNAFFLE 6026 1880 -667 158 0
+10 SNAFFLE 5147 4081 -352 79 0
+11 BLUDGER 7706 5645 654 -361 0
+12 BLUDGER 7932 511 -719 153 0
+MOVE 6433 4631 150
+THROW 16000 3750 500
+Sortie standard :
+MOVE 6433 4631 150
+THROW 16000 3750 500
+Informations :
+Storm: Wizard 0 moves towards coordinate (6433, 4631) with thrust 150
+Storm: Wizard 1 throws the snaffle to coordinate (16000, 3750) with power 500
+064
+139
+Sortie standard :
+MOVE 7266 1008 150
+MOVE 6999 3934 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (7266, 1008) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (6999, 3934) with thrust 150
+065
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 32
+DEFAULT Score: 0 | Magic: 32
+DEFAULT 2 caught snaffle 5
+Sortie d'erreur :
+13
+0 WIZARD 6835 4841 -121 -75 0
+1 WIZARD 8019 4334 86 -613 0
+2 OPPONENT_WIZARD 6825 1411 -649 584 1
+3 OPPONENT_WIZARD 7208 3882 -124 -211 0
+4 SNAFFLE 8994 4690 812 -173 0
+5 SNAFFLE 6825 1411 -649 584 0
+6 SNAFFLE 5890 4930 -407 224 0
+7 SNAFFLE 6816 3575 -137 -269 0
+8 SNAFFLE 9070 6246 41 4 0
+9 SNAFFLE 5359 2038 -500 119 0
+10 SNAFFLE 4795 4160 -264 59 0
+11 BLUDGER 8393 5226 617 -351 0
+12 BLUDGER 7154 734 -653 117 0
+MOVE 5890 4930 150
+MOVE 8994 4690 150
+Sortie standard :
+MOVE 5890 4930 150
+MOVE 8994 4690 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (5890, 4930) with thrust 150
+Storm: Wizard 1 moves towards coordinate (8994, 4690) with thrust 150
+066
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 6816 3575 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (6816, 3575) with thrust 150
+067
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 33
+DEFAULT Score: 0 | Magic: 33
+DEFAULT 3 caught snaffle 7
+Sortie d'erreur :
+13
+0 WIZARD 6565 4780 -202 -46 0
+1 WIZARD 8245 3772 170 -421 0
+2 OPPONENT_WIZARD 6176 1995 -487 438 0
+3 OPPONENT_WIZARD 6965 3579 -182 -227 1
+4 SNAFFLE 9806 4517 609 -130 0
+5 SNAFFLE 5419 2254 -1054 632 0
+6 SNAFFLE 5483 5154 -305 168 0
+7 SNAFFLE 6965 3579 -182 -227 0
+8 SNAFFLE 9111 6250 31 3 0
+9 SNAFFLE 4859 2157 -375 89 0
+10 SNAFFLE 4531 4219 -198 44 0
+11 BLUDGER 8889 4845 446 -343 0
+12 BLUDGER 6503 976 -586 218 0
+MOVE 5483 5154 150
+MOVE 6965 3579 150
+Sortie standard :
+MOVE 5483 5154 150
+MOVE 6965 3579 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (5483, 5154) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6965, 3579) with thrust 150
+068
+139
+Sortie standard :
+MOVE 5419 2254 150
+THROW 0 3750 400
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (5419, 2254) with thrust 150
+DEFAULT: Wizard 3 throws the snaffle to coordinate (0, 3750) with power 400
+069
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 34
+DEFAULT Score: 0 | Magic: 34
+Sortie d'erreur :
+13
+0 WIZARD 6221 4783 -258 2 0
+1 WIZARD 8266 3328 16 -333 0
+2 OPPONENT_WIZARD 5547 2482 -472 365 0
+3 OPPONENT_WIZARD 6783 3352 -136 -170 0
+4 SNAFFLE 10415 4387 457 -97 0
+5 SNAFFLE 4365 2886 -791 474 0
+6 SNAFFLE 5178 5322 -229 126 0
+7 SNAFFLE 5983 3371 -736 -156 0
+8 SNAFFLE 9142 6253 23 2 0
+9 SNAFFLE 4484 2246 -281 67 0
+10 SNAFFLE 4333 4263 -148 33 0
+11 BLUDGER 9231 4433 308 -371 0
+12 BLUDGER 5939 1317 -508 307 0
+MOVE 5178 5322 150
+MOVE 5983 3371 150
+Sortie standard :
+MOVE 5178 5322 150
+MOVE 5983 3371 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (5178, 5322) with thrust 150
+Storm: Wizard 1 moves towards coordinate (5983, 3371) with thrust 150
+070
+139
+Sortie standard :
+MOVE 5983 3371 150
+MOVE 5983 3371 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (5983, 3371) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (5983, 3371) with thrust 150
+071
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 35
+DEFAULT Score: 0 | Magic: 35
+DEFAULT 2 caught snaffle 7
+Sortie d'erreur :
+13
+0 WIZARD 5830 4854 -293 53 0
+1 WIZARD 8132 2998 -100 -247 0
+2 OPPONENT_WIZARD 5141 2982 -304 375 1
+3 OPPONENT_WIZARD 6497 3185 -214 -125 0
+4 SNAFFLE 10872 4290 343 -73 0
+5 SNAFFLE 3574 3360 -593 356 0
+6 SNAFFLE 4949 5448 -172 95 0
+7 SNAFFLE 5141 2982 -304 375 0
+8 SNAFFLE 9165 6255 17 2 0
+9 SNAFFLE 4203 2313 -211 50 0
+10 SNAFFLE 4185 4296 -112 25 0
+11 BLUDGER 9424 4012 174 -379 0
+12 BLUDGER 5479 1739 -414 380 0
+MOVE 4949 5448 150
+MOVE 5141 2982 150
+Sortie standard :
+MOVE 4949 5448 150
+MOVE 5141 2982 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (4949, 5448) with thrust 150
+Storm: Wizard 1 moves towards coordinate (5141, 2982) with thrust 150
+072
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 5141 2982 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (5141, 2982) with thrust 150
+073
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 36
+DEFAULT Score: 0 | Magic: 36
+Sortie d'erreur :
+13
+0 WIZARD 5412 4991 -313 103 0
+1 WIZARD 7882 2750 -187 -186 0
+2 OPPONENT_WIZARD 4837 3357 -229 281 0
+3 OPPONENT_WIZARD 6134 3038 -272 -110 0
+4 SNAFFLE 11215 4217 257 -55 0
+5 SNAFFLE 2981 3716 -445 267 0
+6 SNAFFLE 4777 5543 -129 71 0
+7 SNAFFLE 4045 3475 -822 370 0
+8 SNAFFLE 9182 6257 13 2 0
+9 SNAFFLE 3992 2363 -158 38 0
+10 SNAFFLE 4073 4321 -84 19 0
+11 BLUDGER 9477 3599 48 -372 0
+12 BLUDGER 5137 2221 -308 434 0
+MOVE 4777 5543 150
+MOVE 11215 4217 150
+Sortie standard :
+MOVE 4777 5543 150
+MOVE 11215 4217 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (4777, 5543) with thrust 150
+Storm: Wizard 1 moves towards coordinate (11215, 4217) with thrust 150
+074
+139
+Sortie standard :
+MOVE 4045 3475 150
+MOVE 4045 3475 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (4045, 3475) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (4045, 3475) with thrust 150
+075
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 37
+DEFAULT Score: 0 | Magic: 37
+Sortie d'erreur :
+13
+0 WIZARD 4985 5192 -320 151 0
+1 WIZARD 7832 2624 -37 -94 0
+2 OPPONENT_WIZARD 4460 3660 -283 227 0
+3 OPPONENT_WIZARD 5715 2958 -314 -60 0
+4 SNAFFLE 11472 4162 193 -42 0
+5 SNAFFLE 2536 3983 -334 200 0
+6 SNAFFLE 4648 5614 -97 53 0
+7 SNAFFLE 3223 3845 -616 278 0
+8 SNAFFLE 9195 6259 10 2 0
+9 SNAFFLE 3834 2401 -118 29 0
+10 SNAFFLE 3989 4340 -63 14 0
+11 BLUDGER 9401 3207 -68 -353 0
+12 BLUDGER 4926 2734 -190 462 0
+MOVE 4648 5614 150
+MOVE 9195 6259 150
+Sortie standard :
+MOVE 4648 5614 150
+MOVE 9195 6259 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (4648, 5614) with thrust 150
+Storm: Wizard 1 moves towards coordinate (9195, 6259) with thrust 150
+076
+139
+Sortie standard :
+MOVE 3989 4340 150
+MOVE 3834 2401 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (3989, 4340) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (3834, 2401) with thrust 150
+077
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 38
+Storm 0 caught snaffle 6
+DEFAULT Score: 0 | Magic: 38
+DEFAULT 2 caught snaffle 10
+Sortie d'erreur :
+13
+0 WIZARD 4571 5460 -310 201 1
+1 WIZARD 7847 2670 11 35 0
+2 OPPONENT_WIZARD 4092 4011 -276 263 1
+3 OPPONENT_WIZARD 5532 2821 68 -128 0
+4 SNAFFLE 11665 4120 145 -31 0
+5 SNAFFLE 2202 4183 -250 150 0
+6 SNAFFLE 4571 5460 -310 201 0
+7 SNAFFLE 2607 4122 -463 209 0
+8 SNAFFLE 9205 6261 8 2 0
+9 SNAFFLE 3716 2430 -89 22 0
+10 SNAFFLE 4092 4011 -276 263 0
+11 BLUDGER 9208 2846 -174 -325 0
+12 BLUDGER 4822 3234 -124 454 0
+THROW 16000 3750 500
+MOVE 9205 6261 150
+Sortie standard :
+THROW 16000 3750 500
+MOVE 9205 6261 150
+Informations :
+Storm: Wizard 0 throws the snaffle to coordinate (16000, 3750) with power 500
+Storm: Wizard 1 moves towards coordinate (9205, 6261) with thrust 150
+078
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 3716 2430 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (3716, 2430) with thrust 150
+079
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 39
+DEFAULT Score: 0 | Magic: 39
+Sortie d'erreur :
+13
+0 WIZARD 4261 5661 -233 151 0
+1 WIZARD 7911 2845 48 131 0
+2 OPPONENT_WIZARD 3816 4274 -207 197 0
+3 OPPONENT_WIZARD 5454 2661 -58 -120 0
+4 SNAFFLE 11810 4089 109 -24 0
+5 SNAFFLE 1799 4349 -418 137 0
+6 SNAFFLE 5249 5513 509 40 0
+7 SNAFFLE 2297 4314 -117 132 0
+8 SNAFFLE 9213 6263 6 2 0
+9 SNAFFLE 3627 2452 -67 17 0
+10 SNAFFLE 3018 4223 -805 159 0
+11 BLUDGER 8909 2520 -269 -293 0
+12 BLUDGER 4612 3779 -189 491 0
+MOVE 5249 5513 150
+MOVE 9213 6263 150
+Sortie standard :
+MOVE 5249 5513 150
+MOVE 9213 6263 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (5249, 5513) with thrust 150
+Storm: Wizard 1 moves towards coordinate (9213, 6263) with thrust 150
+080
+139
+Sortie standard :
+MOVE 3018 4223 150
+MOVE 3627 2452 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (3018, 4223) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (3627, 2452) with thrust 150
+081
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 40
+DEFAULT Score: 0 | Magic: 40
+Sortie d'erreur :
+13
+0 WIZARD 4176 5790 -64 97 0
+1 WIZARD 8012 3116 76 203 0
+2 OPPONENT_WIZARD 3459 4462 -268 141 0
+3 OPPONENT_WIZARD 5246 2524 -156 -103 0
+4 SNAFFLE 11919 4065 82 -18 0
+5 SNAFFLE 1381 4486 -313 103 0
+6 SNAFFLE 5758 5553 382 30 0
+7 SNAFFLE 1935 4508 -577 224 0
+8 SNAFFLE 9219 6265 5 2 0
+9 SNAFFLE 3560 2469 -50 13 0
+10 SNAFFLE 2457 4320 -115 -5 0
+11 BLUDGER 8515 2232 -355 -259 0
+12 BLUDGER 4317 4336 -265 501 0
+MOVE 5758 5553 150
+MOVE 5758 5553 150
+Sortie standard :
+MOVE 5758 5553 150
+MOVE 5758 5553 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (5758, 5553) with thrust 150
+Storm: Wizard 1 moves towards coordinate (5758, 5553) with thrust 150
+082
+139
+Sortie standard :
+MOVE 2457 4320 150
+MOVE 3560 2469 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (2457, 4320) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (3560, 2469) with thrust 150
+083
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 41
+DEFAULT Score: 0 | Magic: 41
+Sortie d'erreur :
+13
+0 WIZARD 4261 5865 64 56 0
+1 WIZARD 7986 3429 -19 235 0
+2 OPPONENT_WIZARD 3043 4582 -312 90 0
+3 OPPONENT_WIZARD 4940 2416 -229 -81 0
+4 SNAFFLE 12001 4047 62 -13 0
+5 SNAFFLE 1068 4589 -235 77 0
+6 SNAFFLE 6140 5583 287 23 0
+7 SNAFFLE 1358 4732 -433 168 0
+8 SNAFFLE 9224 6267 4 2 0
+9 SNAFFLE 3510 2482 -37 10 0
+10 SNAFFLE 2342 4315 -86 -4 0
+11 BLUDGER 8036 1984 -431 -223 0
+12 BLUDGER 3928 4855 -350 467 0
+MOVE 6140 5583 150
+MOVE 6140 5583 150
+Sortie standard :
+MOVE 6140 5583 150
+MOVE 6140 5583 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6140, 5583) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6140, 5583) with thrust 150
+084
+139
+Sortie standard :
+MOVE 2342 4315 150
+MOVE 3510 2482 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (2342, 4315) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (3510, 2482) with thrust 150
+085
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 42
+DEFAULT Score: 0 | Magic: 42
+Sortie d'erreur :
+13
+0 WIZARD 4473 5899 159 26 0
+1 WIZARD 7869 3778 -88 262 0
+2 OPPONENT_WIZARD 2591 4619 -339 28 0
+3 OPPONENT_WIZARD 4561 2342 -284 -55 0
+4 SNAFFLE 12063 4034 47 -10 0
+5 SNAFFLE 652 4553 -342 -46 0
+6 SNAFFLE 6427 5606 215 17 0
+7 SNAFFLE 1105 5013 -160 230 0
+8 SNAFFLE 9228 6269 3 2 0
+9 SNAFFLE 3473 2492 -28 8 0
+10 SNAFFLE 2256 4311 -64 -3 0
+11 BLUDGER 7481 1778 -499 -185 0
+12 BLUDGER 3458 5285 -423 387 0
+MOVE 6427 5606 150
+MOVE 6427 5606 150
+Sortie standard :
+MOVE 6427 5606 150
+MOVE 6427 5606 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6427, 5606) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6427, 5606) with thrust 150
+086
+139
+Sortie standard :
+MOVE 2256 4311 150
+MOVE 3473 2492 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (2256, 4311) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (3473, 2492) with thrust 150
+087
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 43
+DEFAULT Score: 0 | Magic: 43
+DEFAULT 2 caught snaffle 10
+Sortie d'erreur :
+13
+0 WIZARD 4780 5902 230 2 0
+1 WIZARD 7688 4158 -136 285 0
+2 OPPONENT_WIZARD 2142 4545 -337 -55 1
+3 OPPONENT_WIZARD 4128 2307 -325 -26 0
+4 SNAFFLE 12110 4024 35 -8 0
+5 SNAFFLE 310 4507 -256 -34 0
+6 SNAFFLE 6642 5623 161 13 0
+7 SNAFFLE 945 5243 -120 173 0
+8 SNAFFLE 9231 6271 2 2 0
+9 SNAFFLE 3445 2500 -22 6 0
+10 SNAFFLE 2142 4545 -337 -55 0
+11 BLUDGER 6859 1616 -560 -146 0
+12 BLUDGER 2936 5596 -470 280 0
+MOVE 6642 5623 150
+MOVE 6642 5623 150
+Sortie standard :
+MOVE 6642 5623 150
+MOVE 6642 5623 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6642, 5623) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6642, 5623) with thrust 150
+088
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 3445 2500 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (3445, 2500) with thrust 150
+089
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 44
+DEFAULT Score: 0 | Magic: 44
+DEFAULT 3 caught snaffle 9
+Sortie d'erreur :
+13
+0 WIZARD 5159 5882 284 -15 0
+1 WIZARD 7465 4565 -167 305 0
+2 OPPONENT_WIZARD 1805 4490 -253 -42 0
+3 OPPONENT_WIZARD 3659 2322 -352 11 1
+4 SNAFFLE 12145 4016 26 -6 0
+5 SNAFFLE 53 4473 -193 -26 0
+6 SNAFFLE 6803 5636 121 10 0
+7 SNAFFLE 825 5416 -90 130 0
+8 SNAFFLE 9233 6273 2 2 0
+9 SNAFFLE 3659 2322 -352 11 0
+10 SNAFFLE 1055 4211 -815 -250 0
+11 BLUDGER 6178 1501 -613 -103 0
+12 BLUDGER 2391 5776 -490 162 0
+MOVE 6803 5636 150
+MOVE 6803 5636 150
+Sortie standard :
+MOVE 6803 5636 150
+MOVE 6803 5636 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6803, 5636) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6803, 5636) with thrust 150
+090
+139
+Sortie standard :
+MOVE 1055 4211 150
+THROW 0 3750 400
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1055, 4211) with thrust 150
+DEFAULT: Wizard 3 throws the snaffle to coordinate (0, 3750) with power 400
+091
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 45
+DEFAULT Score: 1 | Magic: 45
+Sortie d'erreur :
+12
+0 WIZARD 5592 5845 325 -28 0
+1 WIZARD 7219 4998 -184 325 0
+2 OPPONENT_WIZARD 1412 4396 -295 -70 0
+3 OPPONENT_WIZARD 3307 2333 -264 8 0
+4 SNAFFLE 12171 4010 20 -4 0
+6 SNAFFLE 6924 5646 91 8 0
+7 SNAFFLE 735 5546 -67 98 0
+8 SNAFFLE 9235 6275 2 2 0
+9 SNAFFLE 2562 2624 -823 227 0
+10 SNAFFLE 240 3961 -611 -188 0
+11 BLUDGER 5446 1436 -659 -58 0
+12 BLUDGER 1849 5824 -488 43 0
+MOVE 6924 5646 150
+MOVE 6924 5646 150
+Sortie standard :
+MOVE 6924 5646 150
+MOVE 6924 5646 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (6924, 5646) with thrust 150
+Storm: Wizard 1 moves towards coordinate (6924, 5646) with thrust 150
+092
+139
+Sortie standard :
+MOVE 240 3961 150
+MOVE 2562 2624 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (240, 3961) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (2562, 2624) with thrust 150
+093
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 46
+Storm 1 caught snaffle 6
+DEFAULT Score: 2 | Magic: 46
+Sortie d'erreur :
+11
+0 WIZARD 6065 5795 355 -37 0
+1 WIZARD 6972 5459 -185 346 1
+2 OPPONENT_WIZARD 977 4273 -326 -92 0
+3 OPPONENT_WIZARD 2903 2396 -303 47 0
+4 SNAFFLE 12191 4006 15 -4 0
+6 SNAFFLE 6972 5459 -185 346 0
+7 SNAFFLE 668 5644 -51 74 0
+8 SNAFFLE 9237 6276 2 2 0
+9 SNAFFLE 1739 2851 -617 170 0
+11 BLUDGER 4672 1426 -697 -9 0
+12 BLUDGER 1325 5748 -472 -68 0
+MOVE 6972 5459 150
+THROW 16000 3750 500
+Sortie standard :
+MOVE 6972 5459 150
+THROW 16000 3750 500
+Informations :
+Storm: Wizard 0 moves towards coordinate (6972, 5459) with thrust 150
+Storm: Wizard 1 throws the snaffle to coordinate (16000, 3750) with power 500
+094
+139
+Sortie standard :
+MOVE 668 5644 150
+MOVE 1739 2851 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (668, 5644) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1739, 2851) with thrust 150
+095
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 47
+DEFAULT Score: 2 | Magic: 47
+Sortie d'erreur :
+11
+0 WIZARD 6193 5823 21 45 0
+1 WIZARD 7154 5687 212 148 0
+2 OPPONENT_WIZARD 618 4327 -269 41 0
+3 OPPONENT_WIZARD 2460 2498 -332 77 0
+4 SNAFFLE 12206 4002 11 -3 0
+6 SNAFFLE 7769 5619 598 120 0
+7 SNAFFLE 485 5767 550 191 0
+8 SNAFFLE 9239 6278 2 2 0
+9 SNAFFLE 1122 3021 -463 128 0
+11 BLUDGER 3866 1477 -725 46 0
+12 BLUDGER 837 5555 -411 -180 0
+MOVE 7769 5619 150
+MOVE 7769 5619 150
+Sortie standard :
+MOVE 7769 5619 150
+MOVE 7769 5619 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (7769, 5619) with thrust 150
+Storm: Wizard 1 moves towards coordinate (7769, 5619) with thrust 150
+096
+139
+Sortie standard :
+MOVE 1122 3021 150
+MOVE 1122 3021 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1122, 3021) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1122, 3021) with thrust 150
+097
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 48
+DEFAULT Score: 2 | Magic: 48
+Sortie d'erreur :
+11
+0 WIZARD 6363 5849 128 20 0
+1 WIZARD 7515 5818 271 98 0
+2 OPPONENT_WIZARD 403 4228 -161 -74 0
+3 OPPONENT_WIZARD 1988 2629 -354 98 0
+4 SNAFFLE 12217 3999 8 -2 0
+6 SNAFFLE 8367 5739 449 90 0
+7 SNAFFLE 883 6185 277 347 0
+8 SNAFFLE 9241 6280 2 2 0
+9 SNAFFLE 659 3149 -347 96 0
+11 BLUDGER 3039 1596 -744 107 0
+12 BLUDGER 413 5238 -380 -288 0
+MOVE 8367 5739 150
+MOVE 8367 5739 150
+Sortie standard :
+MOVE 8367 5739 150
+MOVE 8367 5739 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (8367, 5739) with thrust 150
+Storm: Wizard 1 moves towards coordinate (8367, 5739) with thrust 150
+098
+139
+Sortie standard :
+MOVE 659 3149 150
+MOVE 659 3149 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (659, 3149) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (659, 3149) with thrust 150
+099
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 49
+DEFAULT Score: 2 | Magic: 49
+Sortie d'erreur :
+11
+0 WIZARD 6640 5860 208 8 0
+1 WIZARD 7935 5902 315 63 0
+2 OPPONENT_WIZARD 524 4008 95 -165 0
+3 OPPONENT_WIZARD 1494 2782 -370 115 0
+4 SNAFFLE 12225 3997 6 -1 0
+6 SNAFFLE 8815 5829 337 68 0
+7 SNAFFLE 1160 6532 208 260 0
+8 SNAFFLE 9243 6282 2 2 0
+9 SNAFFLE 312 3245 -260 72 0
+11 BLUDGER 2206 1791 -750 176 0
+12 BLUDGER 368 4825 343 -372 0
+MOVE 8815 5829 150
+MOVE 8815 5829 150
+Sortie standard :
+MOVE 8815 5829 150
+MOVE 8815 5829 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (8815, 5829) with thrust 150
+Storm: Wizard 1 moves towards coordinate (8815, 5829) with thrust 150
+100
+139
+Sortie standard :
+MOVE 312 3245 150
+MOVE 312 3245 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (312, 3245) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (312, 3245) with thrust 150
+101
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 50
+DEFAULT Score: 2 | Magic: 50
+Sortie d'erreur :
+11
+0 WIZARD 6998 5866 269 5 0
+1 WIZARD 8399 5953 348 38 0
+2 OPPONENT_WIZARD 579 3698 41 -232 0
+3 OPPONENT_WIZARD 984 2951 -382 127 0
+4 SNAFFLE 12231 3996 5 -1 0
+6 SNAFFLE 9152 5897 253 51 0
+7 SNAFFLE 1368 6792 156 195 0
+8 SNAFFLE 9245 6284 2 2 0
+9 SNAFFLE 52 3317 -195 54 0
+11 BLUDGER 1383 2068 -741 249 0
+12 BLUDGER 734 4331 329 -445 0
+MOVE 9152 5897 150
+MOVE 9152 5897 150
+Sortie standard :
+MOVE 9152 5897 150
+MOVE 9152 5897 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (9152, 5897) with thrust 150
+Storm: Wizard 1 moves towards coordinate (9152, 5897) with thrust 150
+102
+139
+Sortie standard :
+MOVE 52 3317 150
+MOVE 52 3317 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (52, 3317) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (52, 3317) with thrust 150
+103
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 51
+DEFAULT Score: 3 | Magic: 51
+Sortie d'erreur :
+10
+0 WIZARD 7416 5873 314 5 0
+1 WIZARD 8897 5980 374 20 0
+2 OPPONENT_WIZARD 400 3754 209 209 0
+3 OPPONENT_WIZARD 782 2992 6 102 0
+4 SNAFFLE 12236 3994 4 -1 0
+6 SNAFFLE 9405 5948 190 38 0
+7 SNAFFLE 1524 6987 117 146 0
+8 SNAFFLE 9247 6286 2 2 0
+11 BLUDGER 620 2318 -658 112 0
+12 BLUDGER 1108 3849 467 -356 0
+MOVE 9247 6286 150
+MOVE 9247 6286 150
+Sortie standard :
+MOVE 9247 6286 150
+MOVE 9247 6286 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (9247, 6286) with thrust 150
+Storm: Wizard 1 moves towards coordinate (9247, 6286) with thrust 150
+104
+139
+Sortie standard :
+MOVE 1524 6987 150
+MOVE 1524 6987 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1524, 6987) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1524, 6987) with thrust 150
+105
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 52
+Storm 1 caught snaffle 8
+DEFAULT Score: 3 | Magic: 52
+Sortie d'erreur :
+10
+0 WIZARD 7876 5911 345 29 0
+1 WIZARD 9383 6099 365 89 1
+2 OPPONENT_WIZARD 658 4105 194 263 0
+3 OPPONENT_WIZARD 815 3241 25 187 0
+4 SNAFFLE 12240 3993 3 -1 0
+6 SNAFFLE 9595 5986 143 29 0
+7 SNAFFLE 1641 7133 88 110 0
+8 SNAFFLE 9383 6099 365 89 0
+11 BLUDGER 457 2553 609 212 0
+12 BLUDGER 1531 3376 381 -426 0
+MOVE 9383 6099 150
+THROW 16000 3750 500
+Sortie standard :
+MOVE 9383 6099 150
+THROW 16000 3750 500
+Informations :
+Storm: Wizard 0 moves towards coordinate (9383, 6099) with thrust 150
+Storm: Wizard 1 throws the snaffle to coordinate (16000, 3750) with power 500
+106
+139
+Sortie standard :
+MOVE 1641 7133 150
+MOVE 1641 7133 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1641, 7133) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1641, 7133) with thrust 150
+107
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 53
+DEFAULT Score: 3 | Magic: 53
+Sortie d'erreur :
+10
+0 WIZARD 8370 5958 371 35 0
+1 WIZARD 9748 6188 274 67 0
+2 OPPONENT_WIZARD 898 4511 180 305 0
+3 OPPONENT_WIZARD 871 3574 42 250 0
+4 SNAFFLE 12243 3992 2 -1 0
+6 SNAFFLE 9738 6015 107 22 0
+7 SNAFFLE 1729 7243 66 83 0
+8 SNAFFLE 10690 5854 980 -184 0
+11 BLUDGER 1082 2888 563 302 0
+12 BLUDGER 1789 2927 232 -404 0
+MOVE 9738 6015 150
+MOVE 9738 6015 150
+Sortie standard :
+MOVE 9738 6015 150
+MOVE 9738 6015 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (9738, 6015) with thrust 150
+Storm: Wizard 1 moves towards coordinate (9738, 6015) with thrust 150
+108
+139
+Sortie standard :
+MOVE 1729 7243 150
+MOVE 1729 7243 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1729, 7243) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1729, 7243) with thrust 150
+109
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 54
+DEFAULT Score: 3 | Magic: 54
+Sortie d'erreur :
+10
+0 WIZARD 8890 5999 390 31 0
+1 WIZARD 10013 6105 199 -62 0
+2 OPPONENT_WIZARD 1122 4959 168 336 0
+3 OPPONENT_WIZARD 947 3970 57 297 0
+4 SNAFFLE 12245 3991 2 -1 0
+6 SNAFFLE 9845 6037 80 17 0
+7 SNAFFLE 1795 7326 50 62 0
+8 SNAFFLE 11670 5670 735 -138 0
+11 BLUDGER 1630 3314 493 383 0
+12 BLUDGER 1919 2595 117 -299 0
+MOVE 9845 6037 150
+MOVE 9845 6037 150
+Sortie standard :
+MOVE 9845 6037 150
+MOVE 9845 6037 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (9845, 6037) with thrust 150
+Storm: Wizard 1 moves towards coordinate (9845, 6037) with thrust 150
+110
+139
+Sortie standard :
+MOVE 1795 7326 150
+MOVE 1795 7326 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1795, 7326) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1795, 7326) with thrust 150
+111
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 55
+Storm 1 caught snaffle 6
+DEFAULT Score: 3 | Magic: 55
+Sortie d'erreur :
+10
+0 WIZARD 9319 6035 150 27 0
+1 WIZARD 10184 5987 300 -88 1
+2 OPPONENT_WIZARD 1331 5439 157 360 0
+3 OPPONENT_WIZARD 1041 4412 71 332 0
+4 SNAFFLE 12247 3990 2 -1 0
+6 SNAFFLE 10184 5987 300 -88 0
+7 SNAFFLE 1845 7312 38 -46 0
+8 SNAFFLE 12405 5532 551 -103 0
+11 BLUDGER 2086 3817 410 453 0
+12 BLUDGER 1964 2398 41 -177 0
+MOVE 10184 5987 150
+THROW 16000 3750 500
+Sortie standard :
+MOVE 10184 5987 150
+THROW 16000 3750 500
+Informations :
+Storm: Wizard 0 moves towards coordinate (10184, 5987) with thrust 150
+Storm: Wizard 1 throws the snaffle to coordinate (16000, 3750) with power 500
+112
+139
+Sortie standard :
+MOVE 1845 7312 150
+MOVE 1845 7312 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1845, 7312) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1845, 7312) with thrust 150
+113
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 56
+DEFAULT Score: 3 | Magic: 56
+Sortie d'erreur :
+10
+0 WIZARD 9619 6054 225 14 0
+1 WIZARD 10484 5899 225 -67 0
+2 OPPONENT_WIZARD 1527 5944 147 379 0
+3 OPPONENT_WIZARD 1152 4888 83 357 0
+4 SNAFFLE 12249 3989 2 -1 0
+6 SNAFFLE 11417 5540 925 -335 0
+7 SNAFFLE 1883 7266 29 -35 0
+8 SNAFFLE 12956 5429 413 -78 0
+11 BLUDGER 2444 4383 322 509 0
+12 BLUDGER 1952 2334 -11 -58 0
+MOVE 11417 5540 150
+MOVE 11417 5540 150
+Sortie standard :
+MOVE 11417 5540 150
+MOVE 11417 5540 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (11417, 5540) with thrust 150
+Storm: Wizard 1 moves towards coordinate (11417, 5540) with thrust 150
+114
+139
+Sortie standard :
+MOVE 1883 7266 150
+MOVE 1883 7266 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1883, 7266) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1883, 7266) with thrust 150
+115
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 57
+DEFAULT Score: 3 | Magic: 57
+Sortie d'erreur :
+10
+0 WIZARD 9988 6027 277 -20 0
+1 WIZARD 10849 5778 274 -91 0
+2 OPPONENT_WIZARD 1713 6468 140 393 0
+3 OPPONENT_WIZARD 1279 5388 95 375 0
+4 SNAFFLE 12251 3988 2 -1 0
+6 SNAFFLE 12342 5205 694 -251 0
+7 SNAFFLE 1912 7231 22 -26 0
+8 SNAFFLE 13369 5351 310 -58 0
+11 BLUDGER 2703 5000 233 555 0
+12 BLUDGER 1904 2396 -43 56 0
+MOVE 12342 5205 150
+MOVE 12342 5205 150
+Sortie standard :
+MOVE 12342 5205 150
+MOVE 12342 5205 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12342, 5205) with thrust 150
+Storm: Wizard 1 moves towards coordinate (12342, 5205) with thrust 150
+116
+139
+Sortie standard :
+MOVE 1912 7231 150
+MOVE 1912 7231 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1912, 7231) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1912, 7231) with thrust 150
+117
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 58
+DEFAULT Score: 3 | Magic: 58
+DEFAULT 2 caught snaffle 7
+Sortie d'erreur :
+10
+0 WIZARD 10406 5957 314 -52 0
+1 WIZARD 11263 5634 311 -108 0
+2 OPPONENT_WIZARD 1890 7006 133 404 1
+3 OPPONENT_WIZARD 1423 5905 108 388 0
+4 SNAFFLE 12253 3987 2 -1 0
+6 SNAFFLE 13036 4954 521 -188 0
+7 SNAFFLE 1890 7006 133 404 0
+8 SNAFFLE 13679 5293 233 -44 0
+11 BLUDGER 2866 5659 147 593 0
+12 BLUDGER 1835 2574 -62 160 0
+MOVE 12253 3987 150
+MOVE 13036 4954 150
+Sortie standard :
+MOVE 12253 3987 150
+MOVE 13036 4954 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12253, 3987) with thrust 150
+Storm: Wizard 1 moves towards coordinate (13036, 4954) with thrust 150
+118
+139
+Sortie standard :
+THROW 0 3750 400
+MOVE 1890 7006 150
+Informations :
+DEFAULT: Wizard 2 throws the snaffle to coordinate (0, 3750) with power 400
+DEFAULT: Wizard 3 moves towards coordinate (1890, 7006) with thrust 150
+119
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 59
+DEFAULT Score: 3 | Magic: 59
+Sortie d'erreur :
+10
+0 WIZARD 10822 5795 312 -121 0
+1 WIZARD 11714 5472 338 -121 0
+2 OPPONENT_WIZARD 2113 6926 306 7 0
+3 OPPONENT_WIZARD 1499 6295 -82 86 0
+4 SNAFFLE 12255 3986 2 -1 0
+6 SNAFFLE 13557 4766 391 -141 0
+7 SNAFFLE 1621 6718 -202 -216 0
+8 SNAFFLE 13912 5249 175 -33 0
+11 BLUDGER 2939 6353 66 625 0
+12 BLUDGER 1758 2858 -69 256 0
+MOVE 12255 3986 150
+MOVE 12255 3986 150
+Sortie standard :
+MOVE 12255 3986 150
+MOVE 12255 3986 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12255, 3986) with thrust 150
+Storm: Wizard 1 moves towards coordinate (12255, 3986) with thrust 150
+120
+139
+Sortie standard :
+MOVE 1621 6718 150
+MOVE 1621 6718 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1621, 6718) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1621, 6718) with thrust 150
+121
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 60
+DEFAULT Score: 3 | Magic: 60
+DEFAULT 3 caught snaffle 7
+Sortie d'erreur :
+10
+0 WIZARD 11227 5556 304 -179 0
+1 WIZARD 12104 5210 293 -196 0
+2 OPPONENT_WIZARD 2281 6874 126 -39 0
+3 OPPONENT_WIZARD 1459 6525 -30 173 1
+4 SNAFFLE 12257 3985 2 -1 0
+6 SNAFFLE 13948 4625 293 -106 0
+7 SNAFFLE 1459 6525 -30 173 0
+8 SNAFFLE 14087 5216 131 -25 0
+11 BLUDGER 2902 7049 -33 626 0
+12 BLUDGER 1679 3238 -71 342 0
+MOVE 12257 3985 150
+MOVE 12257 3985 150
+Sortie standard :
+MOVE 12257 3985 150
+MOVE 12257 3985 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12257, 3985) with thrust 150
+Storm: Wizard 1 moves towards coordinate (12257, 3985) with thrust 150
+122
+139
+Sortie standard :
+MOVE 1459 6525 150
+THROW 0 3750 400
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1459, 6525) with thrust 150
+DEFAULT: Wizard 3 throws the snaffle to coordinate (0, 3750) with power 400
+123
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 61
+DEFAULT Score: 3 | Magic: 61
+Sortie d'erreur :
+10
+0 WIZARD 11613 5251 290 -229 0
+1 WIZARD 12415 4865 233 -259 0
+2 OPPONENT_WIZARD 2197 6699 -130 -290 0
+3 OPPONENT_WIZARD 1356 6688 -330 90 0
+4 SNAFFLE 12258 3984 2 -1 0
+6 SNAFFLE 14241 4519 220 -79 0
+7 SNAFFLE 1057 5989 -301 -402 0
+8 SNAFFLE 14218 5191 98 -19 0
+11 BLUDGER 2767 6969 -74 -495 0
+12 BLUDGER 1600 3705 -71 420 0
+MOVE 12258 3984 150
+MOVE 12258 3984 150
+Sortie standard :
+MOVE 12258 3984 150
+MOVE 12258 3984 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12258, 3984) with thrust 150
+Storm: Wizard 1 moves towards coordinate (12258, 3984) with thrust 150
+124
+139
+Sortie standard :
+MOVE 1057 5989 150
+MOVE 1057 5989 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (1057, 5989) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (1057, 5989) with thrust 150
+125
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 62
+DEFAULT Score: 3 | Magic: 62
+Sortie d'erreur :
+10
+0 WIZARD 11946 4904 171 -211 0
+1 WIZARD 12646 4443 252 -365 0
+2 OPPONENT_WIZARD 1939 6329 -193 -277 0
+3 OPPONENT_WIZARD 967 6640 -292 -36 0
+4 SNAFFLE 12260 3983 2 -1 0
+6 SNAFFLE 14461 4440 165 -60 0
+7 SNAFFLE 756 5587 -226 -301 0
+8 SNAFFLE 14316 5172 74 -14 0
+11 BLUDGER 2571 6450 -176 -467 0
+12 BLUDGER 1519 4250 -73 491 0
+MOVE 12260 3983 150
+MOVE 12260 3983 150
+Sortie standard :
+MOVE 12260 3983 150
+MOVE 12260 3983 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12260, 3983) with thrust 150
+Storm: Wizard 1 moves towards coordinate (12260, 3983) with thrust 150
+126
+139
+Sortie standard :
+MOVE 756 5587 150
+MOVE 756 5587 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (756, 5587) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (756, 5587) with thrust 150
+127
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 63
+DEFAULT Score: 3 | Magic: 63
+Sortie d'erreur :
+10
+0 WIZARD 12165 4551 164 -265 0
+1 WIZARD 12802 3963 117 -360 0
+2 OPPONENT_WIZARD 1618 5972 -241 -268 0
+3 OPPONENT_WIZARD 646 6457 -241 -137 0
+4 SNAFFLE 12262 3982 2 -1 0
+6 SNAFFLE 14626 4380 124 -45 0
+7 SNAFFLE 530 5286 -170 -226 0
+8 SNAFFLE 14390 5158 56 -10 0
+11 BLUDGER 2270 5998 -271 -407 0
+12 BLUDGER 1418 4862 -91 551 0
+MOVE 12262 3982 150
+MOVE 12262 3982 150
+Sortie standard :
+MOVE 12262 3982 150
+MOVE 12262 3982 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (12262, 3982) with thrust 150
+Storm: Wizard 1 moves towards coordinate (12262, 3982) with thrust 150
+128
+139
+Sortie standard :
+MOVE 530 5286 150
+MOVE 530 5286 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (530, 5286) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (530, 5286) with thrust 150
+129
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 64
+Storm 0 caught snaffle 4
+DEFAULT Score: 3 | Magic: 64
+Sortie d'erreur :
+10
+0 WIZARD 12261 4232 38 -203 1
+1 WIZARD 12862 3514 80 -372 0
+2 OPPONENT_WIZARD 1380 6513 -77 1102 0
+3 OPPONENT_WIZARD 562 6356 199 209 0
+4 SNAFFLE 12261 4232 38 -203 0
+6 SNAFFLE 14750 4335 93 -34 0
+7 SNAFFLE 360 5059 -127 -170 0
+8 SNAFFLE 14446 5148 42 -8 0
+11 BLUDGER 1879 5625 -352 -336 0
+12 BLUDGER 1256 5414 -160 392 0
+THROW 16000 3750 500
+MOVE 12261 4232 150
+Sortie standard :
+THROW 16000 3750 500
+MOVE 12261 4232 150
+Informations :
+Storm: Wizard 0 throws the snaffle to coordinate (16000, 3750) with power 500
+Storm: Wizard 1 moves towards coordinate (12261, 4232) with thrust 150
+130
+139
+Sortie standard :
+MOVE 360 5059 150
+MOVE 360 5059 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (360, 5059) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (360, 5059) with thrust 150
+131
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 65
+DEFAULT Score: 3 | Magic: 65
+Sortie d'erreur :
+10
+0 WIZARD 12299 4029 29 -152 0
+1 WIZARD 12846 3257 -12 -193 0
+2 OPPONENT_WIZARD 1325 6816 190 -424 0
+3 OPPONENT_WIZARD 583 6361 -735 377 0
+4 SNAFFLE 13290 3901 772 -248 0
+6 SNAFFLE 14843 4301 70 -25 0
+7 SNAFFLE 232 4889 -96 -127 0
+8 SNAFFLE 14488 5140 32 -6 0
+11 BLUDGER 1418 5350 -415 -247 0
+12 BLUDGER 1027 5900 -128 347 0
+MOVE 13290 3901 150
+MOVE 13290 3901 150
+Sortie standard :
+MOVE 13290 3901 150
+MOVE 13290 3901 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (13290, 3901) with thrust 150
+Storm: Wizard 1 moves towards coordinate (13290, 3901) with thrust 150
+132
+139
+Sortie standard :
+MOVE 232 4889 150
+MOVE 232 4889 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (232, 4889) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (232, 4889) with thrust 150
+133
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 66
+DEFAULT Score: 3 | Magic: 66
+Sortie d'erreur :
+10
+0 WIZARD 12476 3858 133 -128 0
+1 WIZARD 12919 3188 55 -52 0
+2 OPPONENT_WIZARD 1853 6761 649 266 0
+3 OPPONENT_WIZARD 515 7062 288 -847 0
+4 SNAFFLE 14062 3653 579 -186 0
+6 SNAFFLE 14913 4276 53 -19 0
+7 SNAFFLE 136 4762 -72 -96 0
+8 SNAFFLE 14520 5134 24 -4 0
+11 BLUDGER 923 5199 -445 -136 0
+12 BLUDGER 974 6236 -35 216 0
+MOVE 14062 3653 150
+MOVE 14062 3653 150
+Sortie standard :
+MOVE 14062 3653 150
+MOVE 14062 3653 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (14062, 3653) with thrust 150
+Storm: Wizard 1 moves towards coordinate (14062, 3653) with thrust 150
+134
+139
+Sortie standard :
+MOVE 136 4762 150
+MOVE 136 4762 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (136, 4762) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (136, 4762) with thrust 150
+135
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 67
+DEFAULT Score: 3 | Magic: 67
+Sortie d'erreur :
+10
+0 WIZARD 12656 3864 134 7 0
+1 WIZARD 13214 3039 223 -114 0
+2 OPPONENT_WIZARD 2404 6913 413 114 0
+3 OPPONENT_WIZARD 931 7038 422 -867 0
+4 SNAFFLE 14641 3467 434 -139 0
+6 SNAFFLE 14965 4257 40 -15 0
+7 SNAFFLE 64 4666 -54 -72 0
+8 SNAFFLE 14544 5130 18 -4 0
+11 BLUDGER 451 5185 -425 -13 0
+12 BLUDGER 1016 6353 129 -129 0
+MOVE 14641 3467 150
+MOVE 14641 3467 150
+Sortie standard :
+MOVE 14641 3467 150
+MOVE 14641 3467 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (14641, 3467) with thrust 150
+Storm: Wizard 1 moves towards coordinate (14641, 3467) with thrust 150
+136
+139
+Sortie standard :
+MOVE 64 4666 150
+MOVE 64 4666 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (64, 4666) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (64, 4666) with thrust 150
+137
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 68
+DEFAULT Score: 3 | Magic: 68
+Sortie d'erreur :
+10
+0 WIZARD 12937 3841 211 -17 0
+1 WIZARD 13580 2968 275 -53 0
+2 OPPONENT_WIZARD 2709 6923 229 8 0
+3 OPPONENT_WIZARD 1120 6680 127 -481 0
+4 SNAFFLE 15075 3328 326 -105 0
+6 SNAFFLE 15005 4242 30 -11 0
+7 SNAFFLE 10 4594 -40 -54 0
+8 SNAFFLE 14562 5126 14 -3 0
+11 BLUDGER 342 5293 354 97 0
+12 BLUDGER 1283 6085 243 -259 0
+MOVE 14562 5126 150
+MOVE 15075 3328 150
+Sortie standard :
+MOVE 14562 5126 150
+MOVE 15075 3328 150
+Informations :
+Storm: Wizard 0 moves towards coordinate (14562, 5126) with thrust 150
+Storm: Wizard 1 moves towards coordinate (15075, 3328) with thrust 150
+138
+139
+Sortie standard :
+MOVE 10 4594 150
+MOVE 10 4594 150
+Informations :
+DEFAULT: Wizard 2 moves towards coordinate (10, 4594) with thrust 150
+DEFAULT: Wizard 3 moves towards coordinate (10, 4594) with thrust 150
+139
+139
+Résumé du jeu :
+Storm Score: 0 | Magic: 69
+DEFAULT Score: 4 | Magic: 69

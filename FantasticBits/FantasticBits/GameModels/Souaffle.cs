@@ -1,18 +1,10 @@
 ﻿namespace FantasticBits.GameModels
 {
-	public class Souaffle : IEntity
+	public class Souaffle : BaseEntity
 	{
-		public int Id { get; }
-
-		public Coordinate Position { get; }
-
-		public SpeedVector Speed { get; }
-
-		public Souaffle(int id, Coordinate position, SpeedVector speed)
+		public Souaffle(int id, Coordinate position, SpeedVector speed) : base(id, position, speed)
 		{
-			Id = id;
-			Position = position;
-			Speed = speed;
+
 		}
 	}
 }

@@ -1,0 +1,15 @@
+Calcul du vecteur vitesse après lancé
+
+d = sqrt((snaffle_x - target_x)^2 + (snaffle_y - target_y)^2)
+snaffle_vx += ((target_x - snaffle_x) / d ) * (power / 0.5)
+snaffle_vy += ((target_y - snaffle_y) / d ) * (power / 0.5)
+snaffle_x += snaffle_vx
+snaffle_y += snaffle_vy
+snaffle_vx *= 0.75
+snaffle_vy *= 0.75
+snaffle_x = round(snaffle_x)
+snaffle_y = round(snaffle_y)
+snaffle_vx = round(snaffle_vx)
+snaffle_vy = round(snaffle_vy)
+
+

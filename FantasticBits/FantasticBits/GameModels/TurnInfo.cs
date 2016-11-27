@@ -6,6 +6,8 @@ namespace FantasticBits.GameModels
 	{
 		public List<Souaffle> Souaffles { get; } = new List<Souaffle>();
 
+		public List<Cognard> Cognards { get; } = new List<Cognard>();
+
 		public List<Wizard> MyWizards { get; } = new List<Wizard>();
 
 		public List<Wizard> OpponentWizards { get; } = new List<Wizard>();

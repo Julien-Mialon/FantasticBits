@@ -20,6 +20,7 @@ namespace FantasticBits.AI
 			{
 				if (wizard.HasSouaffle)
 				{
+
 					Output.Throw(_gameInfo.OpponentGoalCenter, Constants.MAX_THROW);
 				}
 				else

@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="GameModels\BaseEntity.cs" />
+    <Compile Include="GameModels\Cognard.cs" />
     <Compile Include="GameModels\Coordinate.cs" />
     <Compile Include="AI\Game.cs" />
     <Compile Include="GameModels\GameInfo.cs" />

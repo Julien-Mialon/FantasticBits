@@ -13,6 +13,7 @@ namespace FantasticBits
 {
 	public static class Constants
 	{
+		//general
 		public const int WIDTH = 16001;
 		public const int HEIGHT = 7501;
 
@@ -26,8 +27,8 @@ namespace FantasticBits
 		public const int TEAM1_GOAL_CENTER_Y = 3750;
 
 		public const int SOUAFFLE_RADIUS = 150;
-
 		public const int WIZARD_RADIUS = 400;
+		public const int COGNARD_RADIUS = 200;
 
 		public const int MIN_WIZARD_MOVE = 0;
 		public const int MAX_WIZARD_MOVE = 150;
@@ -35,9 +36,23 @@ namespace FantasticBits
 		public const int MIN_THROW = 0;
 		public const int MAX_THROW = 500;
 
+		//IO
 		public const string TYPE_SOUAFFLE = "SNAFFLE";
+		public const string TYPE_COGNARD = "BLUDGER";
 		public const string TYPE_MY_WIZARD = "WIZARD";
 		public const string TYPE_OPPONENT_WIZARD = "OPPONENT_WIZARD";
+
+
+		//spells
+		public const int COST_OUBLIETTE = 5;
+		public const int COST_PETRIFICUS = 10;
+		public const int COST_ACCIO = 20;
+		public const int COST_FLIPENDO = 20;
+
+		public const int TIME_OUBLIETTE = 3;
+		public const int TIME_PETRIFICUS = 1;
+		public const int TIME_ACCIO = 6;
+		public const int TIME_FLIPENDO = 3;
 	}
 }
 
@@ -61,6 +76,7 @@ namespace FantasticBits.AI
 			{
 				if (wizard.HasSouaffle)
 				{
+
 					Output.Throw(_gameInfo.OpponentGoalCenter, Constants.MAX_THROW);
 				}
 				else
@@ -70,6 +86,40 @@ namespace FantasticBits.AI
 					Output.Move(nearest.Position, Constants.MAX_WIZARD_MOVE);
 				}
 			}
+		}
+	}
+}
+
+
+// File BaseEntity.cs
+namespace FantasticBits.GameModels
+{
+	public class BaseEntity : IEntity
+	{
+		public int Id { get; }
+
+		public Coordinate Position { get; }
+
+		public SpeedVector Speed { get; }
+
+		public BaseEntity(int id, Coordinate position, SpeedVector speed)
+		{
+			Id = id;
+			Position = position;
+			Speed = speed;
+		}
+	}
+}
+
+
+// File Cognard.cs
+namespace FantasticBits.GameModels
+{
+	public class Cognard : BaseEntity
+	{
+		public Cognard(int id, Coordinate position, SpeedVector speed) : base(id, position, speed)
+		{
+
 		}
 	}
 }
@@ -142,19 +192,11 @@ namespace FantasticBits.GameModels
 // File Souaffle.cs
 namespace FantasticBits.GameModels
 {
-	public class Souaffle : IEntity
+	public class Souaffle : BaseEntity
 	{
-		public int Id { get; }
-
-		public Coordinate Position { get; }
-
-		public SpeedVector Speed { get; }
-
-		public Souaffle(int id, Coordinate position, SpeedVector speed)
+		public Souaffle(int id, Coordinate position, SpeedVector speed) : base(id, position, speed)
 		{
-			Id = id;
-			Position = position;
-			Speed = speed;
+
 		}
 	}
 }
@@ -188,6 +230,8 @@ namespace FantasticBits.GameModels
 	{
 		public List<Souaffle> Souaffles { get; } = new List<Souaffle>();
 
+		public List<Cognard> Cognards { get; } = new List<Cognard>();
+
 		public List<Wizard> MyWizards { get; } = new List<Wizard>();
 
 		public List<Wizard> OpponentWizards { get; } = new List<Wizard>();
@@ -198,21 +242,12 @@ namespace FantasticBits.GameModels
 // File Wizard.cs
 namespace FantasticBits.GameModels
 {
-	public class Wizard : IEntity
+	public class Wizard : BaseEntity
 	{
-		public int Id { get; }
-
-		public Coordinate Position { get; }
-
-		public SpeedVector Speed { get; }
-
 		public bool HasSouaffle { get; }
 
-		public Wizard(int id, Coordinate position, SpeedVector speed, bool hasSouaffle)
+		public Wizard(int id, Coordinate position, SpeedVector speed, bool hasSouaffle) : base(id, position, speed)
 		{
-			Id = id;
-			Position = position;
-			Speed = speed;
 			HasSouaffle = hasSouaffle;
 		}
 	}
@@ -274,27 +309,88 @@ namespace FantasticBits.IO
 	public static class Output
 	{
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		private static void Out(string text)
+		{
+			Console.WriteLine(text);
+			Console.Error.WriteLine(text);
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void Move(int x, int y, int speed)
 		{
-			Console.WriteLine($"MOVE {x} {y} {speed}");
+			Out($"MOVE {x} {y} {speed}");
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void Move(Coordinate c, int speed)
 		{
-			Console.WriteLine($"MOVE {c.X} {c.Y} {speed}");
+			Out($"MOVE {c.X} {c.Y} {speed}");
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void Throw(int x, int y, int speed)
 		{
-			Console.WriteLine($"THROW {x} {y} {speed}");
+			Out($"THROW {x} {y} {speed}");
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void Throw(Coordinate c, int speed)
 		{
-			Console.WriteLine($"THROW {c.X} {c.Y} {speed}");
+			Out($"THROW {c.X} {c.Y} {speed}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Oubliette(Cognard cognard)
+		{
+			Out($"OBLIVIATE {cognard.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void PetrificusTotalus(Cognard cognard)
+		{
+			Out($"PETRIFICUS {cognard.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void PetrificusTotalus(Souaffle souaffle)
+		{
+			Out($"PETRIFICUS {souaffle.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void PetrificusTotalus(Wizard opponent)
+		{
+			Out($"PETRIFICUS {opponent.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Accio(Cognard cognard)
+		{
+			Out($"ACCIO {cognard.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Accio(Souaffle souaffle)
+		{
+			Out($"ACCIO {souaffle.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Flipendo(Cognard cognard)
+		{
+			Out($"FLIPENDO {cognard.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Flipendo(Souaffle souaffle)
+		{
+			Out($"FLIPENDO {souaffle.Id}");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Flipendo(Wizard opponent)
+		{
+			Out($"FLIPENDO {opponent.Id}");
 		}
 	}
 }
@@ -313,20 +409,37 @@ namespace FantasticBits.IO
 		{
 			int teamId = int.Parse(Console.ReadLine());
 
+			Console.Error.WriteLine($"{teamId}");
+
 			Game game = new Game(new GameInfo(teamId));
 
 			while (true)
 			{
 				TurnInfo turn = new TurnInfo();
 				int entitiesCount = int.Parse(Console.ReadLine());
-
+				Console.Error.WriteLine($"{entitiesCount}");
 				for (int i = 0; i < entitiesCount; ++i)
 				{
 					string[] entityInfo = Console.ReadLine().Split(' ');
+					Console.Error.WriteLine($"{string.Join(" ", entityInfo)}");
 
 					if (entityInfo[1] == Constants.TYPE_SOUAFFLE)
 					{
 						turn.Souaffles.Add(new Souaffle(
+							int.Parse(entityInfo[0]),
+							new Coordinate(
+								int.Parse(entityInfo[2]),
+								int.Parse(entityInfo[3])
+								),
+							new SpeedVector(
+								int.Parse(entityInfo[4]),
+								int.Parse(entityInfo[5])
+								)
+							));
+					}
+					else if (entityInfo[1] == Constants.TYPE_COGNARD)
+					{
+						turn.Cognards.Add(new Cognard(
 							int.Parse(entityInfo[0]),
 							new Coordinate(
 								int.Parse(entityInfo[2]),
