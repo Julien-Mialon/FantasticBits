@@ -1,9 +1,10 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using FantasticBits.GameModels;
 using FantasticBits.Helpers;
 using FantasticBits.IO;
-using System.Collections.Generic;
-using System;
+using FantasticBits.Models;
 using System.Runtime.CompilerServices;
 using FantasticBits.AI;
 
@@ -64,6 +65,7 @@ namespace FantasticBits.AI
 	public class Game
 	{
 		private readonly GameInfo _gameInfo;
+		private int _magicCount;
 
 		public Game(GameInfo gameInfo)
 		{
@@ -72,20 +74,186 @@ namespace FantasticBits.AI
 
 		public void Turn(TurnInfo turn)
 		{
+			List<Souaffle> notOwnedSouaffles = new List<Souaffle>();
+			List<Souaffle> ownedSouaffles = new List<Souaffle>();
+			List<Wizard> wizardsWithSouaffles = turn.MyWizards.Concat(turn.OpponentWizards).Where(x => x.HasSouaffle).ToList();
+
+			foreach (Souaffle souaffle in turn.Souaffles)
+			{
+				if (wizardsWithSouaffles.Any(harry => harry.Position.X == souaffle.Position.X && harry.Position.Y == souaffle.Position.Y))
+				{
+					ownedSouaffles.Add(souaffle);
+				}
+				else
+				{
+					notOwnedSouaffles.Add(souaffle);
+				}
+			}
+
 			foreach (Wizard wizard in turn.MyWizards)
 			{
 				if (wizard.HasSouaffle)
 				{
-
 					Output.Throw(_gameInfo.OpponentGoalCenter, Constants.MAX_THROW);
+					continue;
+				}
+
+				Souaffle nearest = notOwnedSouaffles.MinItem(x => wizard.Distance(x)) ?? ownedSouaffles.MinItem(x => wizard.Distance(x));
+				int dx = nearest.Position.X - wizard.Position.X;
+				bool isOnTheRightPath = _gameInfo.MarkOnRight ? dx > 0 : dx < 0;
+				if (_magicCount >= 20 && wizard.Distance(nearest) > 500 && !isOnTheRightPath)
+				{
+					Output.Accio(nearest);
+					_magicCount -= 20;
 				}
 				else
 				{
 					//find the nearest one
-					Souaffle nearest = turn.Souaffles.MinItem(x => wizard.Distance(x));
 					Output.Move(nearest.Position, Constants.MAX_WIZARD_MOVE);
 				}
 			}
+
+			_magicCount++;
+		}
+	}
+}
+
+
+// File GameEngine.cs
+
+namespace FantasticBits.Engines
+{
+	public class GameEngine
+	{
+		private readonly int _myTeam;
+
+		private List<WizardEngine> _wizards;
+		private List<CognardEngine> _cognards;
+		private List<SouaffleEngine> _souaffles;
+
+		public GameEngine(int myTeam)
+		{
+			_myTeam = myTeam;
+		}
+
+		public void Init(TurnInfo turn)
+		{
+			_wizards = turn.MyWizards.Select(x => new WizardEngine("WIZARD")
+			{
+				Id = x.Id,
+				X = x.Position.X,
+				Y = x.Position.Y,
+				VX = x.Speed.VX,
+				VY = x.Speed.VY
+			}).Concat(turn.OpponentWizards.Select(x => new WizardEngine("OPPONENT_WIZARD")
+			{
+				Id = x.Id,
+				X = x.Position.X,
+				Y = x.Position.Y,
+				VX = x.Speed.VX,
+				VY = x.Speed.VY
+			})).OrderBy(x => x.Id).ToList();
+
+			_cognards = turn.Cognards.Select(x => new CognardEngine
+			{
+				Id = x.Id,
+				X = x.Position.X,
+				Y = x.Position.Y,
+				VX = x.Speed.VX,
+				VY = x.Speed.VY
+			}).ToList();
+
+			_souaffles = turn.Souaffles.Select(x => new SouaffleEngine
+			{
+				Id = x.Id,
+				X = x.Position.X,
+				Y = x.Position.Y,
+				VX = x.Speed.VX,
+				VY = x.Speed.VY
+			}).ToList();
+		}
+
+		public void Turn(List<IAction> actions)
+		{
+			if (actions.Count < 4)
+			{
+				//issue
+				throw new ArgumentOutOfRangeException(nameof(actions), "not enough actions, expected 4");
+			}
+
+			for (int i = 0; i < 4; ++i)
+			{
+				IAction action = actions[i];
+				if (action is Move)
+				{
+					
+				}
+				else if (action is Throw)
+				{
+					
+				}
+				else if (action is Spell)
+				{
+					//TODO
+				}
+			}
+		}
+
+		public List<string> Output()
+		{
+			return _wizards
+				.Concat((IEnumerable<BaseEntityEngine>) _cognards)
+				.Concat(_souaffles)
+				.OrderBy(x => x.Id)
+				.Select(x => $"{x.Id} {x.Type} {x.X} {x.Y} {x.VX} {x.VY} {(x.State ? 1 : 0)}")
+				.ToList();
+		}
+
+		private class BaseEntityEngine
+		{
+			public int Id { get; set; }
+
+			public int X { get; set; }
+
+			public int Y { get; set; }
+
+			public int VX { get; set; }
+
+			public int VY { get; set; }
+
+			public virtual bool State { get; } = false;
+
+			public virtual string Type { get; } = "";
+		}
+
+		private class WizardEngine : BaseEntityEngine
+		{
+			public override bool State => Owned != null;
+
+			public override string Type { get; }
+
+			public int TurnBeforeGettingSouaffle { get; set; }
+
+			public SouaffleEngine Owned { get; set; }
+
+			public WizardEngine(string type)
+			{
+				Type = type;
+			}
+		}
+
+		private class CognardEngine : BaseEntityEngine
+		{
+			public override string Type => "BLUDGER";
+
+			public WizardEngine LastCollide { get; set; }
+		}
+
+		private class SouaffleEngine : BaseEntityEngine
+		{
+			public override string Type => "SNAFFLE";
+
+			public WizardEngine CaughtBy { get; set; }
 		}
 	}
 }
@@ -152,6 +320,8 @@ namespace FantasticBits.GameModels
 	{
 		public int MyTeamId { get; }
 
+		public bool MarkOnRight { get; }
+
 		public Coordinate MyGoalCenter { get; }
 
 		public Coordinate OpponentGoalCenter { get; }
@@ -162,11 +332,13 @@ namespace FantasticBits.GameModels
 
 			if (MyTeamId == 0)
 			{
+				MarkOnRight = true;
 				MyGoalCenter = new Coordinate(Constants.TEAM0_GOAL_CENTER_X, Constants.TEAM0_GOAL_CENTER_Y);
 				OpponentGoalCenter = new Coordinate(Constants.TEAM1_GOAL_CENTER_X, Constants.TEAM1_GOAL_CENTER_Y);
 			}
 			else
 			{
+				MarkOnRight = false;
 				OpponentGoalCenter = new Coordinate(Constants.TEAM0_GOAL_CENTER_X, Constants.TEAM0_GOAL_CENTER_Y);
 				MyGoalCenter = new Coordinate(Constants.TEAM1_GOAL_CENTER_X, Constants.TEAM1_GOAL_CENTER_Y);
 			}
@@ -207,13 +379,13 @@ namespace FantasticBits.GameModels
 {
 	public class SpeedVector
 	{
-		public float VX { get; set; }
+		public int VX { get; set; }
 
-		public float VY { get; set; }
+		public int VY { get; set; }
 
 		public SpeedVector() { }
 
-		public SpeedVector(float vx, float vy)
+		public SpeedVector(int vx, int vy)
 		{
 			VX = vx;
 			VY = vy;
@@ -486,6 +658,103 @@ namespace FantasticBits.IO
 
 				game.Turn(turn);
 			}
+		}
+	}
+}
+
+
+// File IAction.cs
+namespace FantasticBits.Models
+{
+	public interface IAction
+	{
+	}
+}
+
+
+// File Move.cs
+namespace FantasticBits.Models
+{
+	public class Move : IAction
+	{
+		public int X { get; set; }
+	
+		public int Y { get; set; }
+
+		public int Speed { get; set; }
+
+		public Move()
+		{
+			
+		}
+
+		public Move(int x, int y, int speed)
+		{
+			X = x;
+			Y = y;
+			Speed = speed;
+		}
+	}
+}
+
+
+// File Spell.cs
+namespace FantasticBits.Models
+{
+	public class Spell : IAction
+	{
+		public SpellType Type { get; set; }
+
+		public int Target { get; set; }
+
+		public Spell()
+		{
+			
+		}
+
+		public Spell(SpellType type, int target)
+		{
+			Type = type;
+			Target = target;
+		}
+	}
+}
+
+
+// File SpellType.cs
+namespace FantasticBits.Models
+{
+	public enum SpellType
+	{
+		Accio,
+		Flipendo,
+		Oubliette,
+		PetrificusTotalus
+	}
+}
+
+
+// File Throw.cs
+namespace FantasticBits.Models
+{
+	public class Throw : IAction
+	{
+		public int X { get; set; }
+
+		public int Y { get; set; }
+
+		public int Speed { get; set; }
+
+		public Throw()
+		{
+
+		}
+
+		public Throw(int x, int y, int speed)
+		{
+			X = x;
+			Y = y;
+			Speed = speed;
 		}
 	}
 }
