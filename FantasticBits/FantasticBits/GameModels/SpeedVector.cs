@@ -2,13 +2,13 @@
 {
 	public class SpeedVector
 	{
-		public float VX { get; set; }
+		public int VX { get; set; }
 
-		public float VY { get; set; }
+		public int VY { get; set; }
 
 		public SpeedVector() { }
 
-		public SpeedVector(float vx, float vy)
+		public SpeedVector(int vx, int vy)
 		{
 			VX = vx;
 			VY = vy;
