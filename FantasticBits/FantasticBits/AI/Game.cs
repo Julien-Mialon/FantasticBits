@@ -85,18 +85,10 @@ namespace FantasticBits.AI
 					double distanceHarry1 = harry.Distance(harryTarget1);
 					double distanceHarry2 = harry.Distance(harryTarget2);
 					
-					double distanceGinny1 = ginny.Distance(ginnyTargets[0]);
-					double distanceGinny2 = ginny.Distance(ginnyTargets[1]);
-
-					double diffD1 = distanceHarry1 - distanceGinny1;
-					double diffD2 = distanceHarry2 - distanceGinny2;
-
-					if (Math.Abs(diffD2) < Math.Abs(diffD1) + 300)
-					{
-						diffD1 *= -1;
-					}
-
-					if (diffD1 < 0)
+					double distanceGinny1 = ginny.Distance(ginnyTarget1);
+					double distanceGinny2 = ginny.Distance(ginnyTarget2);
+					
+					if (distanceGinny1 + distanceHarry2 < distanceGinny2 + distanceHarry1)
 					{
 						ActionForWizard(harry, harryTarget2);
 						ActionForWizard(ginny, ginnyTarget1);
@@ -108,30 +100,7 @@ namespace FantasticBits.AI
 					}
 				}
 			}
-			/*
-			foreach (Wizard wizard in turn.MyWizards)
-			{
-				if (wizard.HasSouaffle)
-				{
-					Output.Throw(_gameInfo.OpponentGoalCenter, Constants.MAX_THROW);
-					continue;
-				}
-
-				Souaffle nearest = notOwnedSouaffles.MinItem(x => wizard.Distance(x)) ?? ownedSouaffles.MinItem(x => wizard.Distance(x));
-				int dx = nearest.Position.X - wizard.Position.X;
-				bool isOnTheRightPath = _gameInfo.MarkOnRight ? dx > 0 : dx < 0;
-				if (_magicCount >= 20 && wizard.Distance(nearest) > 500 && !isOnTheRightPath)
-				{
-					Output.Accio(nearest);
-					_magicCount -= 20;
-				}
-				else
-				{
-					//find the nearest one
-					Output.Move(nearest.Position, Constants.MAX_WIZARD_MOVE);
-				}
-			}
-			*/
+			
 			_magicCount++;
 		}
 
@@ -139,7 +108,7 @@ namespace FantasticBits.AI
 		{
 			int dx = target.Position.X - wizard.Position.X;
 			bool isOnTheRightPath = _gameInfo.MarkOnRight ? dx > 0 : dx < 0;
-			if (_magicCount >= 20 && wizard.Distance(target) > 500 && !isOnTheRightPath)
+			if (_magicCount >= 20 && wizard.Distance(target) > 2000 && !isOnTheRightPath)
 			{
 				Output.Accio(target);
 				_magicCount -= 20;

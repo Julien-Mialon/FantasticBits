@@ -5,6 +5,8 @@ using FantasticBits.GameModels;
 using FantasticBits.Helpers;
 using FantasticBits.IO;
 using FantasticBits.Models;
+using System.Text;
+using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 using FantasticBits.AI;
 
@@ -140,18 +142,11 @@ namespace FantasticBits.AI
 					double distanceHarry1 = harry.Distance(harryTarget1);
 					double distanceHarry2 = harry.Distance(harryTarget2);
 					
-					double distanceGinny1 = ginny.Distance(ginnyTargets[0]);
-					double distanceGinny2 = ginny.Distance(ginnyTargets[1]);
-
-					double diffD1 = distanceHarry1 - distanceGinny1;
-					double diffD2 = distanceHarry2 - distanceGinny2;
-
-					if (Math.Abs(diffD2) < Math.Abs(diffD1) + 300)
-					{
-						diffD1 *= -1;
-					}
-
-					if (diffD1 < 0)
+					double distanceGinny1 = ginny.Distance(ginnyTarget1);
+					double distanceGinny2 = ginny.Distance(ginnyTarget2);
+					
+					//Console.Error.WriteLine($"Diff target1={ginnyTarget1.Id} h2={harryTarget2.Id} g2={ginnyTarget2.Id} : {diffD1} ; {diffD2}");
+					if (distanceGinny1 + distanceHarry2 < distanceGinny2 + distanceHarry1)
 					{
 						ActionForWizard(harry, harryTarget2);
 						ActionForWizard(ginny, ginnyTarget1);
@@ -163,30 +158,7 @@ namespace FantasticBits.AI
 					}
 				}
 			}
-			/*
-			foreach (Wizard wizard in turn.MyWizards)
-			{
-				if (wizard.HasSouaffle)
-				{
-					Output.Throw(_gameInfo.OpponentGoalCenter, Constants.MAX_THROW);
-					continue;
-				}
-
-				Souaffle nearest = notOwnedSouaffles.MinItem(x => wizard.Distance(x)) ?? ownedSouaffles.MinItem(x => wizard.Distance(x));
-				int dx = nearest.Position.X - wizard.Position.X;
-				bool isOnTheRightPath = _gameInfo.MarkOnRight ? dx > 0 : dx < 0;
-				if (_magicCount >= 20 && wizard.Distance(nearest) > 500 && !isOnTheRightPath)
-				{
-					Output.Accio(nearest);
-					_magicCount -= 20;
-				}
-				else
-				{
-					//find the nearest one
-					Output.Move(nearest.Position, Constants.MAX_WIZARD_MOVE);
-				}
-			}
-			*/
+			
 			_magicCount++;
 		}
 
@@ -194,7 +166,7 @@ namespace FantasticBits.AI
 		{
 			int dx = target.Position.X - wizard.Position.X;
 			bool isOnTheRightPath = _gameInfo.MarkOnRight ? dx > 0 : dx < 0;
-			if (_magicCount >= 20 && wizard.Distance(target) > 500 && !isOnTheRightPath)
+			if (_magicCount >= 20 && wizard.Distance(target) > 2000 && !isOnTheRightPath)
 			{
 				Output.Accio(target);
 				_magicCount -= 20;
@@ -261,6 +233,10 @@ namespace FantasticBits.Engines
 				VX = x.Speed.VX,
 				VY = x.Speed.VY
 			}).ToList();
+
+			_wizards.ForEach(x => x.Init());
+			_cognards.ForEach(x => x.Init());
+			_souaffles.ForEach(x => x.Init());
 		}
 
 		public void Turn(List<IAction> actions)
@@ -276,30 +252,110 @@ namespace FantasticBits.Engines
 				IAction action = actions[i];
 				if (action is Move)
 				{
-					
+					Move move = action as Move;
+					WizardEngine wizard = _wizards[i];
+
+					Vector normalizedVector = MathEngine.Normalize(wizard.X, wizard.Y, move.X, move.Y);
+
+					wizard.CurrentVX = wizard.VX + normalizedVector.X * move.Speed;
+					wizard.CurrentVY = wizard.VY + normalizedVector.Y * move.Speed;
 				}
 				else if (action is Throw)
 				{
-					
+					//TODO
 				}
 				else if (action is Spell)
 				{
 					//TODO
 				}
 			}
+
+			//find target for cognards
+			foreach (CognardEngine cognard in _cognards)
+			{
+				WizardEngine target = null;
+				float closest = float.MaxValue;
+				foreach (WizardEngine wizard in _wizards)
+				{
+					if (cognard.LastCollide == wizard)
+					{
+						continue;
+					}
+
+					float d = MathEngine.Distance(cognard.X, cognard.Y, wizard.X, wizard.Y);
+					if (d < closest)
+					{
+						closest = d;
+						target = wizard;
+					}
+				}
+
+				// ReSharper disable once PossibleNullReferenceException
+				Vector normalizedVector = MathEngine.Normalize(cognard.X, cognard.Y, target.X, target.Y);
+
+				cognard.CurrentVX = cognard.VX + normalizedVector.X * 125;
+				cognard.CurrentVY = cognard.VY + normalizedVector.Y * 125;
+			}
+
+			ExecuteMoves();
+		}
+
+		private void ExecuteMoves()
+		{
+			//TODO: move all entities according to speed
+			foreach (WizardEngine wizard in _wizards)
+			{
+				wizard.CurrentX = wizard.X + wizard.CurrentVX;
+				wizard.CurrentY = wizard.Y + wizard.CurrentVY;
+
+				wizard.AfterTurn();
+			}
+
+			foreach (CognardEngine cognard in _cognards)
+			{
+				cognard.CurrentX = cognard.X + cognard.CurrentVX;
+				cognard.CurrentY = cognard.Y + cognard.CurrentVY;
+
+				cognard.AfterTurn();
+			}
+
+			foreach (SouaffleEngine souaffle in _souaffles)
+			{
+				souaffle.CurrentX = souaffle.X + souaffle.CurrentVX;
+				souaffle.CurrentY = souaffle.Y + souaffle.CurrentVY;
+
+				souaffle.AfterTurn();
+			}
 		}
 
 		public List<string> Output()
 		{
 			return _wizards
-				.Concat((IEnumerable<BaseEntityEngine>) _cognards)
+				.Concat((IEnumerable<IBaseEntityEngine>)_cognards)
 				.Concat(_souaffles)
 				.OrderBy(x => x.Id)
 				.Select(x => $"{x.Id} {x.Type} {x.X} {x.Y} {x.VX} {x.VY} {(x.State ? 1 : 0)}")
 				.ToList();
 		}
 
-		private class BaseEntityEngine
+		private interface IBaseEntityEngine
+		{
+			int Id { get; }
+
+			int X { get; }
+
+			int Y { get; }
+
+			int VX { get; }
+
+			int VY { get; }
+
+			bool State { get; }
+
+			string Type { get; }
+		}
+
+		private class WizardEngine : IBaseEntityEngine
 		{
 			public int Id { get; set; }
 
@@ -311,16 +367,18 @@ namespace FantasticBits.Engines
 
 			public int VY { get; set; }
 
-			public virtual bool State { get; } = false;
+			public bool State => Owned != null;
 
-			public virtual string Type { get; } = "";
-		}
+			public string Type { get; }
 
-		private class WizardEngine : BaseEntityEngine
-		{
-			public override bool State => Owned != null;
+			public float CurrentX { get; set; }
 
-			public override string Type { get; }
+			public float CurrentY { get; set; }
+
+			public float CurrentVX { get; set; }
+
+			public float CurrentVY { get; set; }
+
 
 			public int TurnBeforeGettingSouaffle { get; set; }
 
@@ -330,21 +388,158 @@ namespace FantasticBits.Engines
 			{
 				Type = type;
 			}
+
+			public void Init()
+			{
+				CurrentX = X;
+				CurrentY = Y;
+				CurrentVX = VX;
+				CurrentVY = VY;
+			}
+
+			public void AfterTurn()
+			{
+				CurrentX = X = (int)Math.Round(CurrentX, MidpointRounding.AwayFromZero);
+				CurrentY = Y = (int)Math.Round(CurrentY, MidpointRounding.AwayFromZero);
+
+				CurrentVX *= 0.75f;
+				CurrentVY *= 0.75f;
+
+				CurrentVX = VX = (int)Math.Round(CurrentVX, MidpointRounding.AwayFromZero);
+				CurrentVY = VY = (int)Math.Round(CurrentVY, MidpointRounding.AwayFromZero);
+			}
 		}
 
-		private class CognardEngine : BaseEntityEngine
+		private class CognardEngine : IBaseEntityEngine
 		{
-			public override string Type => "BLUDGER";
+			public int Id { get; set; }
+
+			public int X { get; set; }
+
+			public int Y { get; set; }
+
+			public int VX { get; set; }
+
+			public int VY { get; set; }
+
+			public bool State { get; } = false;
+
+			public string Type => "BLUDGER";
+
+			public float CurrentX { get; set; }
+
+			public float CurrentY { get; set; }
+
+			public float CurrentVX { get; set; }
+
+			public float CurrentVY { get; set; }
 
 			public WizardEngine LastCollide { get; set; }
+
+			public void Init()
+			{
+				CurrentX = X;
+				CurrentY = Y;
+				CurrentVX = VX;
+				CurrentVY = VY;
+			}
+
+			public void AfterTurn()
+			{
+				CurrentX = X = (int)Math.Round(CurrentX, MidpointRounding.AwayFromZero);
+				CurrentY = Y = (int)Math.Round(CurrentY, MidpointRounding.AwayFromZero);
+
+				CurrentVX *= 0.9f;
+				CurrentVY *= 0.9f;
+
+				CurrentVX = VX = (int)Math.Round(CurrentVX, MidpointRounding.AwayFromZero);
+				CurrentVY = VY = (int)Math.Round(CurrentVY, MidpointRounding.AwayFromZero);
+			}
 		}
 
-		private class SouaffleEngine : BaseEntityEngine
+		private class SouaffleEngine : IBaseEntityEngine
 		{
-			public override string Type => "SNAFFLE";
+			public int Id { get; set; }
+
+			public int X { get; set; }
+
+			public int Y { get; set; }
+
+			public int VX { get; set; }
+
+			public int VY { get; set; }
+
+			public bool State { get; } = false;
+
+			public string Type => "SNAFFLE";
 
 			public WizardEngine CaughtBy { get; set; }
+
+			public float CurrentX { get; set; }
+
+			public float CurrentY { get; set; }
+
+			public float CurrentVX { get; set; }
+
+			public float CurrentVY { get; set; }
+
+			public void Init()
+			{
+				CurrentX = X;
+				CurrentY = Y;
+				CurrentVX = VX;
+				CurrentVY = VY;
+			}
+
+			public void AfterTurn()
+			{
+				CurrentX = X = (int)Math.Round(CurrentX, MidpointRounding.AwayFromZero);
+				CurrentY = Y = (int)Math.Round(CurrentY, MidpointRounding.AwayFromZero);
+
+				CurrentVX *= 0.75f;
+				CurrentVY *= 0.75f;
+
+				CurrentVX = VX = (int)Math.Round(CurrentVX, MidpointRounding.AwayFromZero);
+				CurrentVY = VY = (int)Math.Round(CurrentVY, MidpointRounding.AwayFromZero);
+			}
 		}
+	}
+}
+
+
+// File MathEngine.cs
+
+namespace FantasticBits.Engines
+{
+	public static class MathEngine
+	{
+		public static Vector Normalize(int x1, int y1, int x2, int y2)
+		{
+			int dx = x2 - x1;
+			int dy = y2 - y1;
+
+			float multiplier = 1 / (float)Math.Sqrt(dx * dx + dy * dy);
+			return new Vector
+			{
+				X = dx * multiplier,
+				Y = dy * multiplier
+			};
+		}
+
+		public static float Distance(int x1, int y1, int x2, int y2)
+		{
+			int dx = x2 - x1;
+			int dy = y2 - y1;
+
+			return (float)Math.Sqrt(dx * dx + dy * dy);
+		}
+	}
+
+	public class Vector
+	{
+		public float X { get; set; }
+
+		public float Y { get; set; }
 	}
 }
 

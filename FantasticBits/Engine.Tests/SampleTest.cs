@@ -22,6 +22,13 @@ namespace Engine.Tests
 			TestReader(reader);
 		}
 
+		[TestMethod]
+		public void TestInput3()
+		{
+			Reader reader = new Reader("Samples/sample3.txt");
+			TestReader(reader);
+		}
+
 		public void TestReader(Reader reader)
 		{
 			GameEngine engine = new GameEngine(int.Parse(reader.ReadGameInfo()));
